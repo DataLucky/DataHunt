@@ -1,0 +1,169 @@
+[2023-08-15T21:25:37.069+0300] {processor.py:157} INFO - Started process (PID=214579) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:25:37.071+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:25:37.075+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:25:37.073+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:25:37.125+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:25:39.345+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:25:39.345+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2023-08-15T21:25:40.011+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:25:40.011+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2023-08-15T21:25:40.122+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:25:40.122+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_python_operator
+[2023-08-15T21:25:40.322+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:25:40.321+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:25:40.436+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:25:40.435+0300] {dag.py:2763} INFO - Creating ORM DAG for example_python_operator
+[2023-08-15T21:25:40.567+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:25:40.567+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:25:41.147+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 4.091 seconds
+[2023-08-15T21:27:58.461+0300] {processor.py:157} INFO - Started process (PID=216304) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:27:58.477+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:27:58.479+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:27:58.478+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:27:58.601+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:27:59.144+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:27:59.143+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:27:59.625+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:27:59.622+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:28:00.183+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 1.731 seconds
+[2023-08-15T21:29:31.082+0300] {processor.py:157} INFO - Started process (PID=217400) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:29:31.085+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:29:31.089+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:29:31.087+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:29:31.138+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:29:31.230+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:29:31.230+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:29:31.333+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:29:31.333+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:29:31.532+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.463 seconds
+[2023-08-15T21:47:33.913+0300] {processor.py:157} INFO - Started process (PID=233741) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:47:33.949+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:47:33.952+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:33.951+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:47:33.991+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:47:34.451+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:34.451+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_python_operator
+[2023-08-15T21:47:34.527+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:34.526+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2023-08-15T21:47:34.606+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:34.606+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2023-08-15T21:47:34.643+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:34.642+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:47:34.681+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:34.681+0300] {dag.py:2763} INFO - Creating ORM DAG for example_python_operator
+[2023-08-15T21:47:34.709+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:34.708+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:47:34.849+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.947 seconds
+[2023-08-15T21:48:04.938+0300] {processor.py:157} INFO - Started process (PID=234127) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:48:04.941+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:48:04.943+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:04.942+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:48:04.995+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:48:05.120+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:05.119+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:48:05.199+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:05.198+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:48:05.256+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.329 seconds
+[2023-08-15T21:48:35.885+0300] {processor.py:157} INFO - Started process (PID=234726) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:48:35.891+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:48:35.894+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:35.893+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:48:35.937+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:48:36.063+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:36.063+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:48:36.182+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:36.181+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:48:36.266+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.395 seconds
+[2023-08-15T21:49:12.011+0300] {processor.py:157} INFO - Started process (PID=235196) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:49:12.027+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:49:12.029+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:12.028+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:49:12.267+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:49:12.631+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:12.631+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:49:14.638+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:14.637+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:49:15.173+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 3.205 seconds
+[2023-08-15T21:49:46.233+0300] {processor.py:157} INFO - Started process (PID=235736) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:49:46.254+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:49:46.257+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:46.256+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:49:46.366+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:49:46.601+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:46.601+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:49:46.710+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:46.710+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:49:46.792+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.607 seconds
+[2023-08-15T21:50:17.139+0300] {processor.py:157} INFO - Started process (PID=236116) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:50:17.166+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:50:17.169+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:17.168+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:50:17.291+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:50:17.496+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:17.496+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:50:17.647+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:17.647+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:50:17.731+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.624 seconds
+[2023-08-15T21:50:50.350+0300] {processor.py:157} INFO - Started process (PID=236572) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:50:50.353+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:50:50.367+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:50.358+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:50:50.456+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:50:50.900+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:50.900+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:50:51.018+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:51.018+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:50:51.114+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.789 seconds
+[2023-08-15T21:51:21.236+0300] {processor.py:157} INFO - Started process (PID=236970) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:51:21.237+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:51:21.239+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:21.238+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:51:21.266+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:51:21.356+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:21.356+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:51:21.407+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:21.406+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:51:21.449+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.222 seconds
+[2023-08-15T21:51:51.861+0300] {processor.py:157} INFO - Started process (PID=237703) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:51:51.870+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:51:51.872+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:51.871+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:51:51.910+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:51:52.029+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:52.028+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:51:52.102+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:52.102+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:51:52.174+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.322 seconds
+[2023-08-15T21:52:22.331+0300] {processor.py:157} INFO - Started process (PID=238080) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:52:22.334+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:52:22.337+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:22.335+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:52:22.379+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:52:22.534+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:22.534+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:52:22.597+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:22.596+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:52:22.659+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.347 seconds
+[2023-08-15T21:52:52.743+0300] {processor.py:157} INFO - Started process (PID=238437) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:52:52.755+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:52:52.757+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:52.756+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:52:52.784+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:52:52.858+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:52.858+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:52:52.905+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:52.904+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:52:52.964+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.230 seconds
+[2023-08-15T21:53:25.072+0300] {processor.py:157} INFO - Started process (PID=239019) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:53:25.075+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:53:25.078+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:25.076+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:53:25.136+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:53:25.358+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:25.358+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:53:25.625+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:25.625+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:53:25.738+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.685 seconds
+[2023-08-15T21:53:57.731+0300] {processor.py:157} INFO - Started process (PID=239482) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:53:57.733+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:53:57.735+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:57.734+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:53:57.798+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:53:57.959+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:57.958+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:53:58.067+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:58.066+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:53:58.331+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.614 seconds
+[2023-08-15T21:54:28.666+0300] {processor.py:157} INFO - Started process (PID=240007) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:54:28.679+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:54:28.682+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:28.681+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:54:28.919+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:54:29.368+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:29.367+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:54:29.488+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:29.488+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:54:29.596+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.970 seconds
+[2023-08-15T21:55:01.131+0300] {processor.py:157} INFO - Started process (PID=240401) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:55:01.134+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:55:01.137+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:01.136+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:55:01.183+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:55:01.333+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:01.332+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:55:01.493+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:01.492+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:55:01.642+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.524 seconds
+[2023-08-15T21:55:32.444+0300] {processor.py:157} INFO - Started process (PID=240839) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:55:32.456+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:55:32.459+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:32.458+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:55:32.577+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:55:32.781+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:32.781+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:55:32.862+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:32.861+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:55:32.932+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.531 seconds
+[2023-08-15T21:56:04.489+0300] {processor.py:157} INFO - Started process (PID=241358) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:56:04.503+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:56:04.508+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:04.505+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:56:04.574+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:56:04.788+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:04.788+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:56:04.936+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:04.936+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:56:05.124+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.649 seconds
+[2023-08-15T21:56:35.610+0300] {processor.py:157} INFO - Started process (PID=241882) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:56:35.745+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:56:35.747+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:35.746+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:56:35.778+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:56:35.932+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:35.932+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:56:36.078+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:36.078+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:56:36.317+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.722 seconds
+[2023-08-15T21:57:06.412+0300] {processor.py:157} INFO - Started process (PID=242431) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:57:06.424+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:57:06.426+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:06.425+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:57:06.458+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:57:06.622+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:06.622+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:57:06.730+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:06.730+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:57:06.874+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.474 seconds
+[2023-08-15T21:57:37.000+0300] {processor.py:157} INFO - Started process (PID=242912) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:57:37.012+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-08-15T21:57:37.015+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:37.014+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:57:37.053+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-08-15T21:57:37.174+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:37.174+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:57:37.248+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:37.247+0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-08-15T21:57:37.321+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.334 seconds

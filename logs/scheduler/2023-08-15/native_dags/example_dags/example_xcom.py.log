@@ -1,0 +1,176 @@
+[2023-08-15T21:24:46.612+0300] {processor.py:157} INFO - Started process (PID=213940) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:24:46.615+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:24:46.618+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:24:46.617+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:24:46.659+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:24:48.135+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:24:48.134+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_xcom
+[2023-08-15T21:24:48.669+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:24:48.669+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_xcom
+[2023-08-15T21:24:49.080+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:24:49.080+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_xcom
+[2023-08-15T21:24:49.165+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:24:49.164+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:24:49.240+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:24:49.239+0300] {dag.py:2763} INFO - Creating ORM DAG for example_xcom
+[2023-08-15T21:24:49.297+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:24:49.297+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:24:50.091+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 3.492 seconds
+[2023-08-15T21:27:26.419+0300] {processor.py:157} INFO - Started process (PID=215819) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:27:26.496+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:27:26.499+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:27:26.498+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:27:26.577+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:27:26.888+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:27:26.888+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:27:27.370+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:27:27.369+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:27:28.029+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 1.679 seconds
+[2023-08-15T21:29:09.720+0300] {processor.py:157} INFO - Started process (PID=217004) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:29:09.730+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:29:09.733+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:29:09.732+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:29:09.766+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:29:09.853+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:29:09.852+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:29:09.947+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:29:09.946+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:29:10.241+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.545 seconds
+[2023-08-15T21:47:27.049+0300] {processor.py:157} INFO - Started process (PID=233666) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:47:27.199+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:47:27.202+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:27.201+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:47:27.229+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:47:27.993+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:27.992+0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_xcom
+[2023-08-15T21:47:28.193+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:28.193+0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_xcom
+[2023-08-15T21:47:28.838+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:28.838+0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_xcom
+[2023-08-15T21:47:28.957+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:28.957+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:47:29.021+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:29.020+0300] {dag.py:2763} INFO - Creating ORM DAG for example_xcom
+[2023-08-15T21:47:29.063+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:29.063+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:47:29.247+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 2.211 seconds
+[2023-08-15T21:47:59.748+0300] {processor.py:157} INFO - Started process (PID=234044) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:47:59.777+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:47:59.779+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:59.778+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:47:59.808+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:47:59.930+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:47:59.930+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:48:00.025+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:00.025+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:48:00.107+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.371 seconds
+[2023-08-15T21:48:30.349+0300] {processor.py:157} INFO - Started process (PID=234460) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:48:30.366+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:48:30.369+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:30.368+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:48:30.431+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:48:30.767+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:30.767+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:48:30.912+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:48:30.911+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:48:31.224+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.918 seconds
+[2023-08-15T21:49:01.796+0300] {processor.py:157} INFO - Started process (PID=235055) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:49:01.809+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:49:01.813+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:01.811+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:49:01.959+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:49:02.384+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:02.383+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:49:02.528+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:02.527+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:49:02.608+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.868 seconds
+[2023-08-15T21:49:34.544+0300] {processor.py:157} INFO - Started process (PID=235633) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:49:34.548+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:49:34.570+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:34.549+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:49:34.650+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:49:35.368+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:35.368+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:49:35.580+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:49:35.579+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:49:35.822+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 1.329 seconds
+[2023-08-15T21:50:06.417+0300] {processor.py:157} INFO - Started process (PID=236004) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:50:06.431+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:50:06.434+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:06.433+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:50:06.470+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:50:06.595+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:06.593+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:50:06.691+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:06.691+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:50:06.762+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.359 seconds
+[2023-08-15T21:50:45.276+0300] {processor.py:157} INFO - Started process (PID=236478) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:50:45.393+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:50:45.396+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:45.395+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:50:45.499+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:50:45.768+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:45.768+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:50:45.908+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:50:45.907+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:50:46.249+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.992 seconds
+[2023-08-15T21:51:16.700+0300] {processor.py:157} INFO - Started process (PID=236883) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:51:16.718+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:51:16.727+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:16.726+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:51:16.821+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:51:16.984+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:16.984+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:51:17.144+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:17.144+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:51:17.246+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.620 seconds
+[2023-08-15T21:51:47.809+0300] {processor.py:157} INFO - Started process (PID=237450) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:51:47.827+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:51:47.829+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:47.828+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:51:47.857+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:51:47.981+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:47.980+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:51:48.079+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:51:48.079+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:51:48.185+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.389 seconds
+[2023-08-15T21:52:18.678+0300] {processor.py:157} INFO - Started process (PID=238003) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:52:18.696+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:52:18.699+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:18.698+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:52:18.729+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:52:18.853+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:18.853+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:52:18.935+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:18.934+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:52:19.014+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.349 seconds
+[2023-08-15T21:52:49.448+0300] {processor.py:157} INFO - Started process (PID=238389) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:52:49.451+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:52:49.453+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:49.452+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:52:49.480+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:52:49.603+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:49.602+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:52:49.691+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:52:49.691+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:52:49.776+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.341 seconds
+[2023-08-15T21:53:20.243+0300] {processor.py:157} INFO - Started process (PID=238775) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:53:20.252+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:53:20.255+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:20.254+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:53:20.282+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:53:20.415+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:20.414+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:53:20.497+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:20.496+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:53:20.593+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.362 seconds
+[2023-08-15T21:53:51.370+0300] {processor.py:157} INFO - Started process (PID=239351) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:53:51.391+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:53:51.393+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:51.392+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:53:51.426+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:53:51.586+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:51.586+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:53:51.714+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:53:51.713+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:53:51.836+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.482 seconds
+[2023-08-15T21:54:22.359+0300] {processor.py:157} INFO - Started process (PID=239957) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:54:22.381+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:54:22.384+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:22.383+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:54:22.419+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:54:22.550+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:22.549+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:54:22.642+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:22.642+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:54:22.694+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.349 seconds
+[2023-08-15T21:54:53.477+0300] {processor.py:157} INFO - Started process (PID=240336) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:54:53.484+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:54:53.487+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:53.485+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:54:53.534+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:54:53.673+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:53.673+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:54:53.765+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:54:53.765+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:54:53.834+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.417 seconds
+[2023-08-15T21:55:25.561+0300] {processor.py:157} INFO - Started process (PID=240787) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:55:25.579+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:55:25.583+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:25.582+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:55:25.680+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:55:25.939+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:25.938+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:55:26.038+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:26.037+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:55:26.129+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.614 seconds
+[2023-08-15T21:55:56.315+0300] {processor.py:157} INFO - Started process (PID=241138) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:55:56.326+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:55:56.328+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:56.327+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:55:56.407+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:55:56.829+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:56.828+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:55:57.358+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:55:57.358+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:55:57.735+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 1.461 seconds
+[2023-08-15T21:56:27.875+0300] {processor.py:157} INFO - Started process (PID=241726) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:56:27.892+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:56:27.895+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:27.894+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:56:27.925+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:56:28.054+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:28.054+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:56:28.150+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:28.149+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:56:28.218+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.359 seconds
+[2023-08-15T21:56:58.446+0300] {processor.py:157} INFO - Started process (PID=242320) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:56:58.462+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:56:58.466+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:58.464+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:56:58.505+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:56:58.667+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:58.667+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:56:58.762+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:56:58.762+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:56:58.866+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.439 seconds
+[2023-08-15T21:57:29.467+0300] {processor.py:157} INFO - Started process (PID=242809) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:57:29.470+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:57:29.474+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:29.473+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:57:29.509+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:57:29.735+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:29.734+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:57:29.829+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:29.828+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:57:29.902+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.458 seconds
+[2023-08-15T21:58:00.380+0300] {processor.py:157} INFO - Started process (PID=243262) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:58:00.382+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-08-15T21:58:00.384+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:00.383+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:58:00.408+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2023-08-15T21:58:00.509+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:00.509+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:58:00.582+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:00.581+0300] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-08-15T21:58:00.776+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.407 seconds
