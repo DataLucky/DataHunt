@@ -174,3 +174,395 @@
 [2023-08-15T21:57:58.417+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:58.417+0300] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-15T21:57:58.558+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:58.557+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T18:57:58.556590+00:00, run_after=2023-08-15T18:57:58.556590+00:00
 [2023-08-15T21:57:58.639+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.646 seconds
+[2023-08-15T21:58:28.769+0300] {processor.py:157} INFO - Started process (PID=243670) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:58:28.782+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T21:58:28.785+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:28.784+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:58:28.820+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:58:28.955+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:28.955+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:58:29.049+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:29.048+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T18:58:29.047898+00:00, run_after=2023-08-15T18:58:29.047898+00:00
+[2023-08-15T21:58:29.134+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.379 seconds
+[2023-08-15T21:58:59.487+0300] {processor.py:157} INFO - Started process (PID=244220) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:58:59.503+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T21:58:59.506+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:59.505+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:58:59.538+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:58:59.658+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:59.658+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:58:59.715+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:59.715+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T18:58:59.714715+00:00, run_after=2023-08-15T18:58:59.714715+00:00
+[2023-08-15T21:58:59.768+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.299 seconds
+[2023-08-15T21:59:30.554+0300] {processor.py:157} INFO - Started process (PID=244731) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:59:30.628+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T21:59:30.631+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:30.630+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:59:30.677+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T21:59:30.891+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:30.891+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:59:30.993+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:30.992+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T18:59:30.991855+00:00, run_after=2023-08-15T18:59:30.991855+00:00
+[2023-08-15T21:59:31.110+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.571 seconds
+[2023-08-15T22:00:01.999+0300] {processor.py:157} INFO - Started process (PID=245109) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:00:02.017+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:00:02.020+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:02.019+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:00:02.050+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:00:02.184+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:02.183+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:00:02.287+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:02.286+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:00:02.285312+00:00, run_after=2023-08-15T19:00:02.285312+00:00
+[2023-08-15T22:00:02.376+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.394 seconds
+[2023-08-15T22:00:32.566+0300] {processor.py:157} INFO - Started process (PID=245499) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:00:32.568+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:00:32.571+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:32.569+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:00:32.623+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:00:32.805+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:32.804+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:00:32.899+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:32.899+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:00:32.898447+00:00, run_after=2023-08-15T19:00:32.898447+00:00
+[2023-08-15T22:00:32.971+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.419 seconds
+[2023-08-15T22:01:03.433+0300] {processor.py:157} INFO - Started process (PID=245894) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:01:03.446+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:01:03.448+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:03.447+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:01:03.508+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:01:03.721+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:03.720+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:01:03.865+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:03.864+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:01:03.864178+00:00, run_after=2023-08-15T19:01:03.864178+00:00
+[2023-08-15T22:01:03.938+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.529 seconds
+[2023-08-15T22:01:34.057+0300] {processor.py:157} INFO - Started process (PID=246444) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:01:34.077+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:01:34.079+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:34.079+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:01:34.108+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:01:34.205+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:34.204+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:01:34.264+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:34.263+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:01:34.263047+00:00, run_after=2023-08-15T19:01:34.263047+00:00
+[2023-08-15T22:01:34.331+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.287 seconds
+[2023-08-15T22:02:04.596+0300] {processor.py:157} INFO - Started process (PID=246991) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:02:04.598+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:02:04.600+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:04.600+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:02:04.624+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:02:04.724+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:04.723+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:02:04.781+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:04.781+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:02:04.780749+00:00, run_after=2023-08-15T19:02:04.780749+00:00
+[2023-08-15T22:02:04.835+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.251 seconds
+[2023-08-15T22:02:35.166+0300] {processor.py:157} INFO - Started process (PID=247372) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:02:35.326+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:02:35.328+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:35.327+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:02:35.350+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:02:35.450+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:35.450+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:02:35.511+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:35.511+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:02:35.510564+00:00, run_after=2023-08-15T19:02:35.510564+00:00
+[2023-08-15T22:02:35.629+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.476 seconds
+[2023-08-15T22:03:05.894+0300] {processor.py:157} INFO - Started process (PID=247709) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:03:05.904+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:03:05.906+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:05.905+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:03:05.931+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:03:06.034+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:06.034+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:03:06.145+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:06.144+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:03:06.143581+00:00, run_after=2023-08-15T19:03:06.143581+00:00
+[2023-08-15T22:03:06.258+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.379 seconds
+[2023-08-15T22:03:36.910+0300] {processor.py:157} INFO - Started process (PID=248087) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:03:36.926+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:03:36.929+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:36.928+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:03:36.994+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:03:37.166+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:37.165+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:03:37.307+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:37.306+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:03:37.305595+00:00, run_after=2023-08-15T19:03:37.305595+00:00
+[2023-08-15T22:03:37.394+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.498 seconds
+[2023-08-15T22:04:07.493+0300] {processor.py:157} INFO - Started process (PID=248643) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:04:07.504+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:04:07.507+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:07.506+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:04:07.533+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:04:07.634+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:07.634+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:04:07.699+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:07.698+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:04:07.698091+00:00, run_after=2023-08-15T19:04:07.698091+00:00
+[2023-08-15T22:04:07.758+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.277 seconds
+[2023-08-15T22:04:38.305+0300] {processor.py:157} INFO - Started process (PID=249192) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:04:38.308+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:04:38.311+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:38.310+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:04:38.352+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:04:38.508+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:38.508+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:04:38.616+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:38.615+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:04:38.615071+00:00, run_after=2023-08-15T19:04:38.615071+00:00
+[2023-08-15T22:04:38.709+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.419 seconds
+[2023-08-15T22:05:09.226+0300] {processor.py:157} INFO - Started process (PID=249587) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:05:09.228+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:05:09.230+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:09.229+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:05:09.257+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:05:09.353+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:09.353+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:05:09.416+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:09.415+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:05:09.415347+00:00, run_after=2023-08-15T19:05:09.415347+00:00
+[2023-08-15T22:05:09.477+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.262 seconds
+[2023-08-15T22:05:40.796+0300] {processor.py:157} INFO - Started process (PID=249979) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:05:40.799+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:05:40.802+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:40.801+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:05:40.842+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:05:41.044+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:41.042+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:05:41.215+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:41.215+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:05:41.200457+00:00, run_after=2023-08-15T19:05:41.200457+00:00
+[2023-08-15T22:05:41.495+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.715 seconds
+[2023-08-15T22:06:11.728+0300] {processor.py:157} INFO - Started process (PID=250540) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:06:11.731+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:06:11.734+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:11.733+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:06:11.777+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:06:11.927+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:11.926+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:06:12.048+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:12.048+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:06:12.047121+00:00, run_after=2023-08-15T19:06:12.047121+00:00
+[2023-08-15T22:06:12.186+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.473 seconds
+[2023-08-15T22:06:42.424+0300] {processor.py:157} INFO - Started process (PID=251114) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:06:42.427+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:06:42.429+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:42.428+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:06:42.457+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:06:42.561+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:42.561+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:06:42.631+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:42.631+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:06:42.630407+00:00, run_after=2023-08-15T19:06:42.630407+00:00
+[2023-08-15T22:06:42.689+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.276 seconds
+[2023-08-15T22:07:12.855+0300] {processor.py:157} INFO - Started process (PID=251520) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:07:12.856+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:07:12.858+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:12.857+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:07:12.884+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:07:12.961+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:12.961+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:07:13.031+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:13.030+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:07:13.029711+00:00, run_after=2023-08-15T19:07:13.029711+00:00
+[2023-08-15T22:07:13.094+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.248 seconds
+[2023-08-15T22:07:43.762+0300] {processor.py:157} INFO - Started process (PID=251903) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:07:43.764+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:07:43.767+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:43.766+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:07:43.801+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:07:43.941+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:43.940+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:07:44.038+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:44.037+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:07:44.037017+00:00, run_after=2023-08-15T19:07:44.037017+00:00
+[2023-08-15T22:07:44.148+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.399 seconds
+[2023-08-15T22:08:15.159+0300] {processor.py:157} INFO - Started process (PID=252445) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:08:15.188+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:08:15.190+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:15.189+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:08:15.242+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:08:15.470+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:15.469+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:08:15.578+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:15.577+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:08:15.576945+00:00, run_after=2023-08-15T19:08:15.576945+00:00
+[2023-08-15T22:08:15.695+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.549 seconds
+[2023-08-15T22:08:46.176+0300] {processor.py:157} INFO - Started process (PID=252826) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:08:46.178+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:08:46.180+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:46.179+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:08:46.213+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:08:46.398+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:46.397+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:08:46.536+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:46.535+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:08:46.534745+00:00, run_after=2023-08-15T19:08:46.534745+00:00
+[2023-08-15T22:08:46.884+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.721 seconds
+[2023-08-15T22:09:17.238+0300] {processor.py:157} INFO - Started process (PID=253427) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:09:17.255+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:09:17.258+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:17.257+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:09:17.285+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:09:17.370+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:17.370+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:09:17.427+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:17.427+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:09:17.426461+00:00, run_after=2023-08-15T19:09:17.426461+00:00
+[2023-08-15T22:09:17.494+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.266 seconds
+[2023-08-15T22:09:47.945+0300] {processor.py:157} INFO - Started process (PID=253816) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:09:47.948+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:09:47.951+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:47.950+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:09:47.990+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:09:48.149+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:48.149+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:09:48.248+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:48.248+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:09:48.247626+00:00, run_after=2023-08-15T19:09:48.247626+00:00
+[2023-08-15T22:09:48.317+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.387 seconds
+[2023-08-15T22:10:19.103+0300] {processor.py:157} INFO - Started process (PID=254193) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:10:19.133+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:10:19.135+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:19.134+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:10:19.162+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:10:19.343+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:19.342+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:10:19.449+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:19.448+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:10:19.447303+00:00, run_after=2023-08-15T19:10:19.447303+00:00
+[2023-08-15T22:10:19.632+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.544 seconds
+[2023-08-15T22:10:49.963+0300] {processor.py:157} INFO - Started process (PID=254552) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:10:49.966+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:10:49.970+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:49.968+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:10:50.008+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:10:50.128+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:50.127+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:10:50.221+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:50.220+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:10:50.219608+00:00, run_after=2023-08-15T19:10:50.219608+00:00
+[2023-08-15T22:10:50.429+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.478 seconds
+[2023-08-15T22:11:20.885+0300] {processor.py:157} INFO - Started process (PID=255100) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:11:20.955+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:11:20.957+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:20.956+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:11:20.986+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:11:21.100+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:21.099+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:11:21.182+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:21.181+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:11:21.181234+00:00, run_after=2023-08-15T19:11:21.181234+00:00
+[2023-08-15T22:11:21.271+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.398 seconds
+[2023-08-15T22:11:51.629+0300] {processor.py:157} INFO - Started process (PID=255683) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:11:51.631+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:11:51.633+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:51.632+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:11:51.654+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:11:51.735+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:51.735+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:11:51.790+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:51.789+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:11:51.789258+00:00, run_after=2023-08-15T19:11:51.789258+00:00
+[2023-08-15T22:11:51.847+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.227 seconds
+[2023-08-15T22:12:22.131+0300] {processor.py:157} INFO - Started process (PID=256035) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:12:22.137+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:12:22.139+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:22.138+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:12:22.169+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:12:22.340+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:22.340+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:12:22.435+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:22.434+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:12:22.434036+00:00, run_after=2023-08-15T19:12:22.434036+00:00
+[2023-08-15T22:12:22.558+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.439 seconds
+[2023-08-15T22:12:52.931+0300] {processor.py:157} INFO - Started process (PID=256423) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:12:52.933+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:12:52.935+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:52.934+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:12:52.967+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:12:53.045+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:53.044+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:12:53.095+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:53.095+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:12:53.095009+00:00, run_after=2023-08-15T19:12:53.095009+00:00
+[2023-08-15T22:12:53.155+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.234 seconds
+[2023-08-15T22:13:23.283+0300] {processor.py:157} INFO - Started process (PID=256958) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:13:23.285+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:13:23.288+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:23.287+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:13:23.317+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:13:23.413+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:23.412+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:13:23.490+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:23.489+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:13:23.488991+00:00, run_after=2023-08-15T19:13:23.488991+00:00
+[2023-08-15T22:13:23.542+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.274 seconds
+[2023-08-15T22:13:54.568+0300] {processor.py:157} INFO - Started process (PID=257515) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:13:54.571+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:13:54.573+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:54.572+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:13:54.598+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:13:54.678+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:54.678+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:13:54.733+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:54.733+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:13:54.732965+00:00, run_after=2023-08-15T19:13:54.732965+00:00
+[2023-08-15T22:13:54.789+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.231 seconds
+[2023-08-15T22:14:25.137+0300] {processor.py:157} INFO - Started process (PID=257891) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:14:25.140+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:14:25.142+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:25.141+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:14:25.188+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:14:25.350+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:25.349+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:14:25.433+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:25.432+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:14:25.432212+00:00, run_after=2023-08-15T19:14:25.432212+00:00
+[2023-08-15T22:14:25.512+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.387 seconds
+[2023-08-15T22:14:55.725+0300] {processor.py:157} INFO - Started process (PID=258265) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:14:55.728+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:14:55.731+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:55.730+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:14:55.769+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:14:55.906+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:55.906+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:14:55.971+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:55.970+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:14:55.969964+00:00, run_after=2023-08-15T19:14:55.969964+00:00
+[2023-08-15T22:14:56.028+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.318 seconds
+[2023-08-15T22:15:26.524+0300] {processor.py:157} INFO - Started process (PID=258826) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:15:26.527+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:15:26.529+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:26.528+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:15:26.564+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:15:26.657+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:26.657+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:15:26.713+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:26.713+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:15:26.712453+00:00, run_after=2023-08-15T19:15:26.712453+00:00
+[2023-08-15T22:15:26.778+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.265 seconds
+[2023-08-15T22:15:57.190+0300] {processor.py:157} INFO - Started process (PID=259383) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:15:57.192+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:15:57.194+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:57.193+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:15:57.216+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:15:57.297+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:57.297+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:15:57.353+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:57.352+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:15:57.352418+00:00, run_after=2023-08-15T19:15:57.352418+00:00
+[2023-08-15T22:15:57.400+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.220 seconds
+[2023-08-15T22:16:27.786+0300] {processor.py:157} INFO - Started process (PID=259786) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:16:27.788+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:16:27.792+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:27.791+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:16:27.824+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:16:27.966+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:27.966+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:16:28.064+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:28.064+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:16:28.063410+00:00, run_after=2023-08-15T19:16:28.063410+00:00
+[2023-08-15T22:16:28.173+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.399 seconds
+[2023-08-15T22:16:58.339+0300] {processor.py:157} INFO - Started process (PID=260166) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:16:58.342+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:16:58.345+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:58.344+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:16:58.381+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:16:58.524+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:58.523+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:16:58.616+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:58.615+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:16:58.614832+00:00, run_after=2023-08-15T19:16:58.614832+00:00
+[2023-08-15T22:16:58.691+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.366 seconds
+[2023-08-15T22:17:29.221+0300] {processor.py:157} INFO - Started process (PID=260758) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:17:29.223+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:17:29.225+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:29.225+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:17:29.253+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:17:29.349+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:29.348+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:17:29.406+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:29.406+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:17:29.405582+00:00, run_after=2023-08-15T19:17:29.405582+00:00
+[2023-08-15T22:17:29.458+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.247 seconds
+[2023-08-15T22:18:00.215+0300] {processor.py:157} INFO - Started process (PID=261319) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:18:00.217+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:18:00.219+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:00.218+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:18:00.244+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:18:00.328+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:00.328+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:18:00.383+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:00.383+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:18:00.382696+00:00, run_after=2023-08-15T19:18:00.382696+00:00
+[2023-08-15T22:18:00.433+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.228 seconds
+[2023-08-15T22:18:30.791+0300] {processor.py:157} INFO - Started process (PID=261723) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:18:30.793+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:18:30.796+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:30.795+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:18:30.824+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:18:30.937+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:30.937+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:18:31.012+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:31.011+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:18:31.010936+00:00, run_after=2023-08-15T19:18:31.010936+00:00
+[2023-08-15T22:18:31.085+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.304 seconds
+[2023-08-15T22:19:01.775+0300] {processor.py:157} INFO - Started process (PID=262100) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:19:01.778+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:19:01.780+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:01.779+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:19:01.811+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:19:01.930+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:01.930+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:19:02.014+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:02.014+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:19:02.013444+00:00, run_after=2023-08-15T19:19:02.013444+00:00
+[2023-08-15T22:19:02.082+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.318 seconds
+[2023-08-15T22:19:32.434+0300] {processor.py:157} INFO - Started process (PID=262674) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:19:32.449+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:19:32.452+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:32.451+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:19:32.484+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:19:32.609+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:32.609+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:19:32.691+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:32.690+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:19:32.689677+00:00, run_after=2023-08-15T19:19:32.689677+00:00
+[2023-08-15T22:19:32.775+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.350 seconds
+[2023-08-15T22:20:03.275+0300] {processor.py:157} INFO - Started process (PID=263218) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:20:03.288+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:20:03.290+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:03.289+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:20:03.313+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:20:03.398+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:03.398+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:20:03.456+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:03.456+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:20:03.455734+00:00, run_after=2023-08-15T19:20:03.455734+00:00
+[2023-08-15T22:20:03.510+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.245 seconds
+[2023-08-15T22:20:40.512+0300] {processor.py:157} INFO - Started process (PID=263747) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:20:40.652+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:20:40.655+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:40.654+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:20:40.728+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:20:40.917+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:40.917+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:20:41.030+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:41.029+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:20:41.028787+00:00, run_after=2023-08-15T19:20:41.028787+00:00
+[2023-08-15T22:20:41.585+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 1.091 seconds
+[2023-08-15T22:21:11.978+0300] {processor.py:157} INFO - Started process (PID=264429) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:21:12.018+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:21:12.020+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:12.019+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:21:12.058+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:21:12.182+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:12.182+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:21:12.334+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:12.333+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:21:12.332985+00:00, run_after=2023-08-15T19:21:12.332985+00:00
+[2023-08-15T22:21:12.456+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.490 seconds
+[2023-08-15T22:21:42.947+0300] {processor.py:157} INFO - Started process (PID=265081) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:21:42.955+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:21:42.958+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:42.957+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:21:42.995+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:21:43.282+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:43.281+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:21:43.611+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:43.610+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:21:43.608022+00:00, run_after=2023-08-15T19:21:43.608022+00:00
+[2023-08-15T22:21:44.018+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 1.086 seconds
+[2023-08-15T22:22:14.578+0300] {processor.py:157} INFO - Started process (PID=265702) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:22:14.622+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:22:14.625+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:14.624+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:22:14.686+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:22:14.801+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:14.801+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:22:14.881+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:14.880+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:22:14.880093+00:00, run_after=2023-08-15T19:22:14.880093+00:00
+[2023-08-15T22:22:14.962+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.397 seconds
+[2023-08-15T22:22:45.330+0300] {processor.py:157} INFO - Started process (PID=266065) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:22:45.337+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:22:45.341+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:45.340+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:22:45.397+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:22:45.807+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:45.807+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:22:45.934+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:45.933+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:22:45.931672+00:00, run_after=2023-08-15T19:22:45.931672+00:00
+[2023-08-15T22:22:46.007+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.717 seconds
+[2023-08-15T22:23:16.171+0300] {processor.py:157} INFO - Started process (PID=266464) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:23:16.239+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:23:16.241+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:16.240+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:23:16.319+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:23:16.574+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:16.574+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:23:16.673+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:16.673+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:23:16.672754+00:00, run_after=2023-08-15T19:23:16.672754+00:00
+[2023-08-15T22:23:16.779+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.622 seconds
+[2023-08-15T22:23:47.090+0300] {processor.py:157} INFO - Started process (PID=266858) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:23:47.092+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:23:47.095+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:47.094+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:23:47.150+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:23:47.287+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:47.287+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:23:47.354+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:47.354+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:23:47.353548+00:00, run_after=2023-08-15T19:23:47.353548+00:00
+[2023-08-15T22:23:47.423+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.347 seconds
+[2023-08-15T22:24:17.819+0300] {processor.py:157} INFO - Started process (PID=267472) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:24:17.837+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:24:17.840+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:17.839+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:24:17.888+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:24:18.104+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:18.103+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:24:18.240+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:18.240+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:24:18.239112+00:00, run_after=2023-08-15T19:24:18.239112+00:00
+[2023-08-15T22:24:18.377+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.574 seconds
+[2023-08-15T22:24:48.682+0300] {processor.py:157} INFO - Started process (PID=268036) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:24:48.685+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:24:48.687+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:48.686+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:24:48.711+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:24:48.807+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:48.806+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:24:48.870+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:48.869+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:24:48.869257+00:00, run_after=2023-08-15T19:24:48.869257+00:00
+[2023-08-15T22:24:48.935+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.264 seconds
+[2023-08-15T22:25:19.201+0300] {processor.py:157} INFO - Started process (PID=268430) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:25:19.207+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:25:19.209+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:19.208+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:25:19.238+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:25:19.357+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:19.356+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:25:19.438+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:19.438+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:25:19.437358+00:00, run_after=2023-08-15T19:25:19.437358+00:00
+[2023-08-15T22:25:19.540+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.350 seconds
+[2023-08-15T22:25:49.762+0300] {processor.py:157} INFO - Started process (PID=268833) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:25:49.783+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:25:49.785+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:49.784+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:25:49.815+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:25:49.933+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:49.933+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:25:50.018+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:50.017+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:25:50.016804+00:00, run_after=2023-08-15T19:25:50.016804+00:00
+[2023-08-15T22:25:50.095+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.344 seconds
+[2023-08-15T22:26:20.833+0300] {processor.py:157} INFO - Started process (PID=269383) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:26:20.851+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:26:20.854+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:20.853+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:26:20.891+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:26:21.031+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:21.031+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:26:21.145+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:21.144+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:26:21.143714+00:00, run_after=2023-08-15T19:26:21.143714+00:00
+[2023-08-15T22:26:21.227+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.408 seconds
+[2023-08-15T22:26:51.494+0300] {processor.py:157} INFO - Started process (PID=269953) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:26:51.496+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-08-15T22:26:51.499+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:51.498+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:26:51.529+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-08-15T22:26:51.622+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:51.622+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:26:51.693+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:51.693+0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-08-14T19:26:51.692488+00:00, run_after=2023-08-15T19:26:51.692488+00:00
+[2023-08-15T22:26:51.746+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.265 seconds

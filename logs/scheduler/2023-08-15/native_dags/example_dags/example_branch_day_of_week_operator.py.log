@@ -160,3 +160,575 @@
 [2023-08-15T21:57:56.042+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:56.041+0300] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-15T21:57:56.147+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:56.147+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
 [2023-08-15T21:57:56.312+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.514 seconds
+[2023-08-15T21:58:26.565+0300] {processor.py:157} INFO - Started process (PID=243625) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:58:26.568+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T21:58:26.571+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:26.570+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:58:26.619+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:58:26.778+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:26.777+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:58:26.880+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:26.879+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T21:58:27.259+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.709 seconds
+[2023-08-15T21:58:58.106+0300] {processor.py:157} INFO - Started process (PID=244180) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:58:58.123+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T21:58:58.126+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:58.125+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:58:58.149+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:58:58.242+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:58.241+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:58:58.330+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:58.329+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T21:58:58.402+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.307 seconds
+[2023-08-15T21:59:29.062+0300] {processor.py:157} INFO - Started process (PID=244723) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:59:29.079+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T21:59:29.082+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:29.081+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:59:29.114+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:59:29.246+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:29.245+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:59:29.362+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:29.361+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T21:59:29.456+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.409 seconds
+[2023-08-15T21:59:59.612+0300] {processor.py:157} INFO - Started process (PID=245103) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:59:59.622+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T21:59:59.624+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:59.623+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:59:59.650+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T21:59:59.761+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:59.761+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:59:59.842+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:59.842+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T21:59:59.910+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.309 seconds
+[2023-08-15T22:00:30.212+0300] {processor.py:157} INFO - Started process (PID=245489) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:00:30.214+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:00:30.215+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:30.215+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:00:30.234+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:00:30.342+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:30.342+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:00:30.424+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:30.423+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:00:30.490+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.288 seconds
+[2023-08-15T22:01:00.705+0300] {processor.py:157} INFO - Started process (PID=245866) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:01:00.727+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:01:00.730+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:00.729+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:01:00.767+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:01:00.935+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:00.935+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:01:01.186+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:01.185+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:01:01.297+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.610 seconds
+[2023-08-15T22:01:31.806+0300] {processor.py:157} INFO - Started process (PID=246419) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:01:31.809+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:01:31.812+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:31.811+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:01:31.841+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:01:31.932+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:31.931+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:01:32.035+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:32.034+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:01:32.332+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.541 seconds
+[2023-08-15T22:02:03.036+0300] {processor.py:157} INFO - Started process (PID=246970) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:02:03.038+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:02:03.041+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:03.040+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:02:03.071+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:02:03.169+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:03.168+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:02:03.221+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:03.220+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:02:03.262+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.237 seconds
+[2023-08-15T22:02:34.170+0300] {processor.py:157} INFO - Started process (PID=247317) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:02:34.172+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:02:34.175+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:34.174+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:02:34.213+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:02:34.478+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:34.478+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:02:34.641+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:34.641+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:02:34.748+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.593 seconds
+[2023-08-15T22:03:05.540+0300] {processor.py:157} INFO - Started process (PID=247706) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:03:05.542+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:03:05.544+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:05.544+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:03:05.571+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:03:05.682+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:05.682+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:03:05.752+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:05.751+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:03:05.815+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.287 seconds
+[2023-08-15T22:03:37.029+0300] {processor.py:157} INFO - Started process (PID=248088) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:03:37.032+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:03:37.035+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:37.033+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:03:37.065+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:03:37.238+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:37.237+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:03:37.357+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:37.356+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:03:37.491+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.475 seconds
+[2023-08-15T22:04:07.826+0300] {processor.py:157} INFO - Started process (PID=248645) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:04:07.828+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:04:07.830+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:07.829+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:04:07.855+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:04:07.947+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:07.946+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:04:08.029+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:08.029+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:04:08.082+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.268 seconds
+[2023-08-15T22:04:38.709+0300] {processor.py:157} INFO - Started process (PID=249194) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:04:38.711+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:04:38.714+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:38.713+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:04:38.753+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:04:38.865+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:38.865+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:04:38.965+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:38.965+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:04:39.039+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.344 seconds
+[2023-08-15T22:05:09.541+0300] {processor.py:157} INFO - Started process (PID=249589) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:05:09.543+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:05:09.546+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:09.545+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:05:09.569+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:05:09.674+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:09.674+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:05:09.793+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:09.792+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:05:09.888+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.358 seconds
+[2023-08-15T22:05:42.024+0300] {processor.py:157} INFO - Started process (PID=249985) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:05:42.033+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:05:42.036+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:42.035+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:05:42.113+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:05:42.306+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:42.306+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:05:42.583+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:42.583+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:05:42.706+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.702 seconds
+[2023-08-15T22:06:13.120+0300] {processor.py:157} INFO - Started process (PID=250565) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:06:13.123+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:06:13.126+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:13.125+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:06:13.161+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:06:13.328+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:13.327+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:06:13.463+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:13.462+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:06:13.527+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.421 seconds
+[2023-08-15T22:06:43.825+0300] {processor.py:157} INFO - Started process (PID=251140) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:06:43.827+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:06:43.830+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:43.829+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:06:43.856+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:06:43.981+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:43.980+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:06:44.080+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:44.079+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:06:44.156+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.344 seconds
+[2023-08-15T22:07:14.453+0300] {processor.py:157} INFO - Started process (PID=251532) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:07:14.455+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:07:14.457+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:14.457+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:07:14.485+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:07:14.634+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:14.633+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:07:14.753+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:14.753+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:07:14.862+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.421 seconds
+[2023-08-15T22:07:45.697+0300] {processor.py:157} INFO - Started process (PID=251929) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:07:45.710+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:07:45.713+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:45.712+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:07:45.757+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:07:45.956+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:45.955+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:07:46.044+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:46.044+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:07:46.108+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.425 seconds
+[2023-08-15T22:08:18.180+0300] {processor.py:157} INFO - Started process (PID=252511) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:08:18.182+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:08:18.185+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:18.184+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:08:18.217+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:08:18.350+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:18.350+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:08:18.446+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:18.446+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:08:18.547+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.381 seconds
+[2023-08-15T22:08:50.506+0300] {processor.py:157} INFO - Started process (PID=253034) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:08:50.509+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:08:50.512+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:50.511+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:08:50.574+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:08:50.723+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:50.722+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:08:50.818+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:50.818+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:08:50.906+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.418 seconds
+[2023-08-15T22:09:23.238+0300] {processor.py:157} INFO - Started process (PID=253543) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:09:23.248+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:09:23.251+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:23.250+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:09:23.357+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:09:24.116+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:24.116+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:09:24.245+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:24.245+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:09:24.423+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 1.217 seconds
+[2023-08-15T22:09:55.297+0300] {processor.py:157} INFO - Started process (PID=253934) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:09:55.300+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:09:55.303+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:55.301+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:09:55.345+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:09:55.498+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:55.497+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:09:55.575+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:55.574+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:09:55.636+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.356 seconds
+[2023-08-15T22:10:27.001+0300] {processor.py:157} INFO - Started process (PID=254311) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:10:27.030+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:10:27.033+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:27.032+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:10:27.068+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:10:27.172+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:27.172+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:10:27.276+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:27.275+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:10:27.630+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.645 seconds
+[2023-08-15T22:10:57.746+0300] {processor.py:157} INFO - Started process (PID=254661) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:10:57.797+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:10:57.799+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:57.798+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:10:57.826+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:10:57.900+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:57.900+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:10:57.955+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:57.955+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:10:58.032+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.297 seconds
+[2023-08-15T22:11:29.229+0300] {processor.py:157} INFO - Started process (PID=255188) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:11:29.245+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:11:29.248+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:29.247+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:11:29.290+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:11:29.516+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:29.516+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:11:29.636+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:29.636+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:11:29.750+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.533 seconds
+[2023-08-15T22:11:59.919+0300] {processor.py:157} INFO - Started process (PID=255716) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:11:59.921+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:11:59.923+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:59.922+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:11:59.942+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:12:00.031+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:00.031+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:12:00.116+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:00.115+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:12:00.174+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.265 seconds
+[2023-08-15T22:12:30.679+0300] {processor.py:157} INFO - Started process (PID=256108) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:12:30.682+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:12:30.685+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:30.684+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:12:30.713+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:12:30.833+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:30.832+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:12:30.926+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:30.925+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:12:30.993+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.327 seconds
+[2023-08-15T22:13:01.652+0300] {processor.py:157} INFO - Started process (PID=256496) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:13:01.654+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:13:01.657+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:01.656+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:13:01.686+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:13:01.806+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:01.805+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:13:01.943+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:01.942+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:13:02.049+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.411 seconds
+[2023-08-15T22:13:33.125+0300] {processor.py:157} INFO - Started process (PID=257061) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:13:33.141+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:13:33.144+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:33.143+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:13:33.174+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:13:33.335+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:33.335+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:13:33.497+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:33.497+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:13:33.626+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.524 seconds
+[2023-08-15T22:14:04.818+0300] {processor.py:157} INFO - Started process (PID=257632) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:14:04.820+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:14:04.822+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:04.821+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:14:04.850+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:14:04.977+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:04.976+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:14:05.066+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:05.065+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:14:05.129+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.323 seconds
+[2023-08-15T22:14:35.716+0300] {processor.py:157} INFO - Started process (PID=258021) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:14:35.718+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:14:35.721+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:35.720+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:14:35.746+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:14:35.842+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:35.841+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:14:35.890+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:35.890+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:14:35.947+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.243 seconds
+[2023-08-15T22:15:06.288+0300] {processor.py:157} INFO - Started process (PID=258385) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:15:06.290+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:15:06.292+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:06.291+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:15:06.313+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:15:06.402+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:06.401+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:15:06.500+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:06.499+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:15:06.610+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.331 seconds
+[2023-08-15T22:15:36.928+0300] {processor.py:157} INFO - Started process (PID=258949) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:15:36.931+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:15:36.933+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:36.932+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:15:36.962+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:15:37.060+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:37.059+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:15:37.121+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:37.120+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:15:37.169+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.254 seconds
+[2023-08-15T22:16:07.540+0300] {processor.py:157} INFO - Started process (PID=259500) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:16:07.557+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:16:07.560+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:07.558+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:16:07.593+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:16:07.733+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:07.732+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:16:07.832+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:07.832+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:16:07.906+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.381 seconds
+[2023-08-15T22:16:38.786+0300] {processor.py:157} INFO - Started process (PID=259907) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:16:38.817+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:16:38.819+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:38.818+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:16:38.840+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:16:38.938+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:38.938+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:16:38.996+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:38.996+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:16:39.058+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.281 seconds
+[2023-08-15T22:17:09.422+0300] {processor.py:157} INFO - Started process (PID=260309) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:17:09.424+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:17:09.426+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:09.425+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:17:09.449+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:17:09.586+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:09.586+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:17:09.680+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:09.679+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:17:09.750+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.339 seconds
+[2023-08-15T22:17:40.176+0300] {processor.py:157} INFO - Started process (PID=260875) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:17:40.195+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:17:40.197+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:40.196+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:17:40.218+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:17:40.314+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:40.314+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:17:40.395+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:40.395+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:17:40.456+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.290 seconds
+[2023-08-15T22:18:10.703+0300] {processor.py:157} INFO - Started process (PID=261436) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:18:10.724+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:18:10.726+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:10.725+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:18:10.748+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:18:10.849+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:10.849+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:18:10.921+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:10.920+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:18:10.988+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.295 seconds
+[2023-08-15T22:18:41.167+0300] {processor.py:157} INFO - Started process (PID=261832) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:18:41.169+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:18:41.171+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:41.170+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:18:41.194+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:18:41.318+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:41.317+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:18:41.420+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:41.419+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:18:41.505+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.349 seconds
+[2023-08-15T22:19:12.388+0300] {processor.py:157} INFO - Started process (PID=262238) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:19:12.397+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:19:12.399+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:12.398+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:19:12.426+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:19:12.546+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:12.546+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:19:12.623+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:12.622+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:19:12.686+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.315 seconds
+[2023-08-15T22:19:42.764+0300] {processor.py:157} INFO - Started process (PID=262784) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:19:42.847+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:19:42.850+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:42.849+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:19:42.873+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:19:42.959+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:42.959+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:19:43.019+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:43.018+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:19:43.083+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.330 seconds
+[2023-08-15T22:20:13.643+0300] {processor.py:157} INFO - Started process (PID=263333) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:20:13.656+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:20:13.658+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:13.657+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:20:13.678+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:20:13.753+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:13.752+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:20:13.807+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:13.807+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:20:13.868+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.233 seconds
+[2023-08-15T22:20:48.903+0300] {processor.py:157} INFO - Started process (PID=263873) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:20:48.918+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:20:48.922+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:48.919+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:20:48.970+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:20:49.084+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:49.083+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:20:49.183+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:49.183+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:20:49.417+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.527 seconds
+[2023-08-15T22:21:19.563+0300] {processor.py:157} INFO - Started process (PID=264549) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:21:19.565+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:21:19.568+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:19.567+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:21:19.591+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:21:19.657+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:19.657+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:21:19.728+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:19.727+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:21:19.779+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.225 seconds
+[2023-08-15T22:21:56.573+0300] {processor.py:157} INFO - Started process (PID=265315) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:21:56.618+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:21:56.621+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:56.620+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:21:56.675+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:21:56.815+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:56.815+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:21:56.937+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:56.936+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:21:57.107+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.548 seconds
+[2023-08-15T22:22:28.099+0300] {processor.py:157} INFO - Started process (PID=265866) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:22:28.102+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:22:28.105+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:28.103+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:22:28.177+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:22:28.331+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:28.331+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:22:28.433+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:28.433+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:22:28.521+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.437 seconds
+[2023-08-15T22:22:58.669+0300] {processor.py:157} INFO - Started process (PID=266237) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:22:58.672+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:22:58.675+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:58.674+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:22:58.705+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:22:58.856+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:58.855+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:22:58.964+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:58.963+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:22:59.070+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.444 seconds
+[2023-08-15T22:23:30.660+0300] {processor.py:157} INFO - Started process (PID=266671) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:23:30.667+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:23:30.670+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:30.669+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:23:30.705+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:23:30.890+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:30.889+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:23:30.981+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:30.981+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:23:31.052+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.415 seconds
+[2023-08-15T22:24:01.255+0300] {processor.py:157} INFO - Started process (PID=267125) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:24:01.263+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:24:01.266+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:01.265+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:24:01.289+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:24:01.397+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:01.396+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:24:01.473+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:01.472+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:24:01.551+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.307 seconds
+[2023-08-15T22:24:31.846+0300] {processor.py:157} INFO - Started process (PID=267826) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:24:31.848+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:24:31.850+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:31.849+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:24:31.871+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:24:31.953+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:31.953+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:24:32.011+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:32.010+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:24:32.063+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.226 seconds
+[2023-08-15T22:25:02.376+0300] {processor.py:157} INFO - Started process (PID=268229) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:25:02.378+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:25:02.379+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:02.379+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:25:02.399+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:25:02.475+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:02.475+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:25:02.532+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:02.531+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:25:02.592+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.225 seconds
+[2023-08-15T22:25:32.709+0300] {processor.py:157} INFO - Started process (PID=268623) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:25:32.788+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:25:32.790+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:32.789+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:25:32.816+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:25:32.902+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:32.902+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:25:32.954+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:32.954+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:25:33.108+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.410 seconds
+[2023-08-15T22:26:03.671+0300] {processor.py:157} INFO - Started process (PID=269022) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:26:03.672+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:26:03.674+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:03.673+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:26:03.697+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:26:03.803+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:03.802+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:26:03.920+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:03.919+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:26:04.216+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.553 seconds
+[2023-08-15T22:26:34.566+0300] {processor.py:157} INFO - Started process (PID=269718) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:26:34.577+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:26:34.581+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:34.579+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:26:34.624+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:26:34.747+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:34.746+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:26:34.835+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:34.835+0300] {dag.py:3504} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15T22:26:34.903+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.352 seconds
+[2023-08-15T22:27:06.204+0300] {processor.py:157} INFO - Started process (PID=270188) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:27:06.643+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-08-15T22:27:06.645+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:27:06.644+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:27:06.667+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-08-15T22:27:08.482+0300] {processor.py:182} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  le système de base de données s'arrête
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 178, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 159, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 854, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/api_internal/internal_api_call.py", line 112, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/dag_processing/processor.py", line 890, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 73, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 659, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 671, in _sync_to_db
+    serialize_errors.extend(_serialize_dag_capturing_errors(dag, session))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 638, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 73, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 152, in write_dag
+    .scalar()
+     ^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2893, in scalar
+    ret = self.one()
+          ^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2870, in one
+    return self._iter().one()
+           ^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+    result = self.session.execute(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/kali/DataHunt/venv/lib/python3.11/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  le système de base de données s'arrête
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)

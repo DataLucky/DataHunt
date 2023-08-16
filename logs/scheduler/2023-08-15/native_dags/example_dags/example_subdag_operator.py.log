@@ -298,3 +298,675 @@
 [2023-08-15T21:57:51.237+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:51.237+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
 [2023-08-15T21:57:51.238+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:51.238+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
 [2023-08-15T21:57:51.277+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.370 seconds
+[2023-08-15T21:58:21.807+0300] {processor.py:157} INFO - Started process (PID=243557) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:58:21.811+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T21:58:21.816+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:21.814+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:58:22.154+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:58:22.231+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:22.230+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T21:58:22.334+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:22.333+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T21:58:22.350+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:22.349+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T21:58:22.355+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:22.355+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T21:58:22.400+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:22.400+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T21:58:22.429+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:22.429+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T21:58:22.431+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:22.431+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T21:58:22.489+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.702 seconds
+[2023-08-15T21:58:52.695+0300] {processor.py:157} INFO - Started process (PID=244141) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:58:52.746+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T21:58:52.748+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:52.747+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:58:52.923+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:58:52.986+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:52.985+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T21:58:53.087+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:53.086+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T21:58:53.100+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:53.100+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T21:58:53.106+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:53.105+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T21:58:53.160+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:53.160+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T21:58:53.194+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:53.193+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T21:58:53.197+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:53.197+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T21:58:53.304+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.621 seconds
+[2023-08-15T21:59:23.836+0300] {processor.py:157} INFO - Started process (PID=244674) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:59:23.846+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T21:59:23.848+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:23.847+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:59:24.032+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:59:24.105+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:24.105+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T21:59:24.219+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:24.218+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T21:59:24.252+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:24.251+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T21:59:24.259+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:24.259+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T21:59:24.347+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:24.347+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T21:59:24.383+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:24.383+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T21:59:24.385+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:24.384+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T21:59:24.442+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.628 seconds
+[2023-08-15T21:59:55.793+0300] {processor.py:157} INFO - Started process (PID=245067) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:59:55.835+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T21:59:55.837+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:55.836+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:59:56.075+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T21:59:56.167+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:56.167+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T21:59:56.304+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:56.303+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T21:59:56.322+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:56.321+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T21:59:56.328+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:56.327+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T21:59:56.386+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:56.365+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T21:59:56.451+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:56.451+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T21:59:56.452+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:56.452+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T21:59:56.521+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.761 seconds
+[2023-08-15T22:00:26.630+0300] {processor.py:157} INFO - Started process (PID=245426) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:00:26.633+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:00:26.635+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:26.634+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:00:26.804+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:00:26.847+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:26.847+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:00:26.922+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:26.921+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:00:26.933+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:26.932+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:00:26.936+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:26.936+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:00:26.960+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:26.960+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:00:26.980+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:26.980+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:00:26.981+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:26.981+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:00:27.049+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.433 seconds
+[2023-08-15T22:00:58.343+0300] {processor.py:157} INFO - Started process (PID=245837) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:00:58.361+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:00:58.370+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:58.363+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:00:58.620+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:00:58.715+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:58.715+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:00:58.850+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:58.850+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:00:58.867+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:58.867+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:00:58.875+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:58.874+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:00:58.927+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:58.926+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:00:58.955+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:58.955+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:00:58.970+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:58.957+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:00:59.108+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.794 seconds
+[2023-08-15T22:01:29.431+0300] {processor.py:157} INFO - Started process (PID=246403) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:01:29.447+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:01:29.450+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:29.449+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:01:29.558+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:01:29.612+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:29.612+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:01:29.675+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:29.674+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:01:29.684+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:29.683+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:01:29.687+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:29.686+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:01:29.710+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:29.709+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:01:29.728+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:29.728+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:01:29.730+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:29.729+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:01:29.777+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.373 seconds
+[2023-08-15T22:02:00.409+0300] {processor.py:157} INFO - Started process (PID=246902) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:02:00.475+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:02:00.477+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:00.476+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:02:00.768+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:02:00.997+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:00.996+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:02:01.130+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:01.129+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:02:01.143+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:01.143+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:02:01.147+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:01.147+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:02:01.203+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:01.202+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:02:01.269+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:01.268+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:02:01.292+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:01.291+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:02:01.434+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 1.048 seconds
+[2023-08-15T22:02:31.808+0300] {processor.py:157} INFO - Started process (PID=247289) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:02:31.810+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:02:31.812+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:31.811+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:02:31.950+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:02:31.999+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:31.999+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:02:32.065+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:32.064+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:02:32.074+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:32.073+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:02:32.077+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:32.076+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:02:32.097+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:32.096+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:02:32.111+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:32.111+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:02:32.112+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:32.112+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:02:32.508+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.714 seconds
+[2023-08-15T22:03:03.068+0300] {processor.py:157} INFO - Started process (PID=247675) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:03:03.091+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:03:03.094+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:03.093+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:03:03.277+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:03:03.354+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:03.353+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:03:03.436+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:03.436+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:03:03.445+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:03.445+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:03:03.448+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:03.448+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:03:03.472+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:03.472+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:03:03.491+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:03.490+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:03:03.492+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:03.491+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:03:03.534+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.512 seconds
+[2023-08-15T22:03:34.127+0300] {processor.py:157} INFO - Started process (PID=248053) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:03:34.145+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:03:34.163+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:34.154+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:03:34.382+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:03:34.454+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:34.454+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:03:34.581+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:34.580+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:03:34.594+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:34.593+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:03:34.599+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:34.599+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:03:34.626+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:34.626+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:03:34.647+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:34.646+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:03:34.648+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:34.647+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:03:34.751+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.652 seconds
+[2023-08-15T22:04:05.090+0300] {processor.py:157} INFO - Started process (PID=248614) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:04:05.100+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:04:05.102+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:05.101+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:04:05.265+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:04:05.323+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:05.322+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:04:05.398+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:05.397+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:04:05.409+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:05.408+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:04:05.412+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:05.412+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:04:05.435+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:05.435+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:04:05.450+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:05.450+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:04:05.451+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:05.451+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:04:05.491+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.414 seconds
+[2023-08-15T22:04:35.558+0300] {processor.py:157} INFO - Started process (PID=249160) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:04:35.578+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:04:35.581+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:35.580+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:04:35.746+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:04:35.820+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:35.819+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:04:35.901+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:35.901+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:04:35.911+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:35.911+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:04:35.914+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:35.914+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:04:35.942+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:35.941+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:04:35.963+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:35.962+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:04:35.964+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:35.964+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:04:36.007+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.462 seconds
+[2023-08-15T22:05:06.601+0300] {processor.py:157} INFO - Started process (PID=249557) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:05:06.612+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:05:06.615+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:06.614+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:05:06.762+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:05:06.825+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:06.825+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:05:06.914+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:06.914+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:05:06.927+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:06.926+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:05:06.931+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:06.930+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:05:06.958+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:06.957+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:05:06.979+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:06.978+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:05:06.980+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:06.980+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:05:07.033+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.446 seconds
+[2023-08-15T22:05:37.748+0300] {processor.py:157} INFO - Started process (PID=249945) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:05:37.767+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:05:37.770+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:37.769+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:05:37.909+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:05:37.997+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:37.996+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:05:38.127+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:38.126+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:05:38.144+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:38.143+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:05:38.149+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:38.149+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:05:38.182+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:38.181+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:05:38.207+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:38.206+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:05:38.208+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:38.208+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:05:38.263+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.530 seconds
+[2023-08-15T22:06:08.977+0300] {processor.py:157} INFO - Started process (PID=250524) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:06:09.039+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:06:09.054+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:09.041+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:06:09.481+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:06:09.659+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:09.659+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:06:09.919+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:09.918+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:06:09.943+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:09.943+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:06:09.960+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:09.960+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:06:10.010+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:10.010+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:06:10.036+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:10.036+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:06:10.037+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:10.037+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:06:10.139+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 1.256 seconds
+[2023-08-15T22:06:40.385+0300] {processor.py:157} INFO - Started process (PID=251101) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:06:40.400+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:06:40.403+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:40.402+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:06:40.508+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:06:40.560+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:40.560+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:06:40.641+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:40.641+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:06:40.652+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:40.651+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:06:40.656+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:40.656+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:06:40.686+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:40.686+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:06:40.710+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:40.709+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:06:40.711+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:40.710+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:06:40.754+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.382 seconds
+[2023-08-15T22:07:11.104+0300] {processor.py:157} INFO - Started process (PID=251497) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:07:11.106+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:07:11.108+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:11.107+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:07:11.242+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:07:11.299+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:11.299+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:07:11.389+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:11.388+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:07:11.412+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:11.411+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:07:11.417+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:11.416+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:07:11.443+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:11.443+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:07:11.464+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:11.464+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:07:11.465+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:11.465+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:07:11.542+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.450 seconds
+[2023-08-15T22:07:41.921+0300] {processor.py:157} INFO - Started process (PID=251853) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:07:41.938+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:07:41.941+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:41.940+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:07:42.084+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:07:42.172+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:42.172+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:07:42.268+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:42.267+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:07:42.277+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:42.276+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:07:42.281+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:42.280+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:07:42.308+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:42.308+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:07:42.329+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:42.328+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:07:42.330+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:42.329+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:07:42.705+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.798 seconds
+[2023-08-15T22:08:12.899+0300] {processor.py:157} INFO - Started process (PID=252300) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:08:12.995+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:08:12.998+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:12.997+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:08:13.344+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:08:13.694+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:13.693+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:08:13.966+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:13.965+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:08:14.007+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:14.007+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:08:14.018+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:14.017+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:08:14.050+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:14.049+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:08:14.079+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:14.079+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:08:14.081+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:14.081+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:08:14.176+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 1.293 seconds
+[2023-08-15T22:08:44.800+0300] {processor.py:157} INFO - Started process (PID=252801) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:08:44.819+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:08:44.822+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:44.821+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:08:45.018+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:08:45.080+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:45.080+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:08:45.182+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:45.181+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:08:45.193+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:45.192+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:08:45.196+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:45.196+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:08:45.223+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:45.223+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:08:45.242+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:45.242+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:08:45.243+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:45.243+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:08:45.301+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.514 seconds
+[2023-08-15T22:09:15.629+0300] {processor.py:157} INFO - Started process (PID=253419) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:09:15.631+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:09:15.633+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:15.632+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:09:15.742+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:09:15.785+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:15.784+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:09:15.846+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:15.845+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:09:15.855+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:15.855+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:09:15.858+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:15.858+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:09:15.879+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:15.879+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:09:15.897+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:15.897+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:09:15.898+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:15.898+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:09:15.940+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.320 seconds
+[2023-08-15T22:09:46.260+0300] {processor.py:157} INFO - Started process (PID=253808) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:09:46.261+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:09:46.263+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:46.262+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:09:46.358+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:09:46.416+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:46.415+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:09:46.489+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:46.489+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:09:46.499+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:46.499+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:09:46.502+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:46.502+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:09:46.524+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:46.524+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:09:46.543+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:46.542+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:09:46.544+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:46.543+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:09:46.584+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.333 seconds
+[2023-08-15T22:10:16.980+0300] {processor.py:157} INFO - Started process (PID=254181) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:10:17.041+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:10:17.044+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:17.043+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:10:17.218+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:10:17.455+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:17.455+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:10:17.572+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:17.571+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:10:17.588+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:17.588+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:10:17.597+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:17.596+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:10:17.643+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:17.643+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:10:17.665+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:17.665+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:10:17.667+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:17.666+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:10:17.736+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.772 seconds
+[2023-08-15T22:10:47.825+0300] {processor.py:157} INFO - Started process (PID=254523) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:10:47.827+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:10:47.831+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:47.830+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:10:47.985+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:10:48.045+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:48.045+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:10:48.152+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:48.152+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:10:48.173+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:48.172+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:10:48.187+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:48.187+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:10:48.222+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:48.221+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:10:48.240+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:48.240+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:10:48.241+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:48.241+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:10:48.347+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.540 seconds
+[2023-08-15T22:11:18.487+0300] {processor.py:157} INFO - Started process (PID=255058) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:11:18.504+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:11:18.506+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:18.505+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:11:18.609+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:11:18.657+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:18.656+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:11:18.717+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:18.716+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:11:18.725+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:18.725+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:11:18.729+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:18.728+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:11:18.751+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:18.751+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:11:18.765+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:18.764+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:11:18.765+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:18.765+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:11:18.801+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.324 seconds
+[2023-08-15T22:11:49.015+0300] {processor.py:157} INFO - Started process (PID=255595) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:11:49.035+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:11:49.038+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:49.036+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:11:49.167+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:11:49.232+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:49.232+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:11:49.324+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:49.323+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:11:49.335+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:49.335+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:11:49.340+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:49.339+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:11:49.366+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:49.365+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:11:49.384+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:49.383+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:11:49.385+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:49.384+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:11:49.425+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.422 seconds
+[2023-08-15T22:12:19.748+0300] {processor.py:157} INFO - Started process (PID=255991) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:12:19.761+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:12:19.765+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:19.763+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:12:19.883+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:12:19.928+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:19.928+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:12:19.982+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:19.982+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:12:19.989+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:19.989+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:12:19.992+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:19.992+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:12:20.009+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:20.009+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:12:20.022+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:20.022+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:12:20.023+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:20.023+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:12:20.064+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.330 seconds
+[2023-08-15T22:12:50.281+0300] {processor.py:157} INFO - Started process (PID=256372) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:12:50.283+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:12:50.285+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:50.284+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:12:50.372+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:12:50.424+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:50.424+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:12:50.484+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:50.484+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:12:50.493+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:50.492+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:12:50.495+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:50.495+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:12:50.513+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:50.513+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:12:50.526+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:50.525+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:12:50.527+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:50.526+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:12:50.559+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.286 seconds
+[2023-08-15T22:13:20.938+0300] {processor.py:157} INFO - Started process (PID=256927) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:13:20.942+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:13:20.945+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:20.944+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:13:21.107+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:13:21.164+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:21.164+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:13:21.244+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:21.244+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:13:21.253+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:21.253+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:13:21.256+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:21.256+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:13:21.285+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:21.285+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:13:21.306+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:21.306+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:13:21.308+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:21.307+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:13:21.387+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.465 seconds
+[2023-08-15T22:13:51.624+0300] {processor.py:157} INFO - Started process (PID=257484) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:13:51.626+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:13:51.629+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:51.628+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:13:51.755+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:13:51.812+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:51.812+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:13:51.894+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:51.893+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:13:51.904+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:51.904+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:13:51.907+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:51.907+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:13:51.933+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:51.932+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:13:51.951+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:51.950+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:13:51.952+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:51.951+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:13:52.023+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.411 seconds
+[2023-08-15T22:14:22.411+0300] {processor.py:157} INFO - Started process (PID=257854) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:14:22.414+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:14:22.416+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:22.415+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:14:22.538+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:14:22.596+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:22.595+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:14:22.680+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:22.679+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:14:22.691+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:22.691+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:14:22.695+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:22.695+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:14:22.740+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:22.739+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:14:22.753+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:22.752+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:14:22.753+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:22.753+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:14:22.812+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.412 seconds
+[2023-08-15T22:14:53.139+0300] {processor.py:157} INFO - Started process (PID=258235) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:14:53.142+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:14:53.145+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:53.144+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:14:53.252+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:14:53.289+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:53.288+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:14:53.348+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:53.347+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:14:53.357+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:53.356+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:14:53.360+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:53.360+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:14:53.383+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:53.382+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:14:53.399+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:53.399+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:14:53.400+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:53.400+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:14:53.488+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.364 seconds
+[2023-08-15T22:15:24.240+0300] {processor.py:157} INFO - Started process (PID=258811) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:15:24.253+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:15:24.256+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:24.255+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:15:24.409+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:15:24.461+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:24.460+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:15:24.521+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:24.521+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:15:24.528+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:24.528+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:15:24.531+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:24.531+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:15:24.548+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:24.548+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:15:24.560+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:24.560+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:15:24.561+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:24.561+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:15:24.619+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.410 seconds
+[2023-08-15T22:15:54.803+0300] {processor.py:157} INFO - Started process (PID=259367) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:15:54.815+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:15:54.817+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:54.816+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:15:54.967+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:15:55.022+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:55.022+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:15:55.111+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:55.110+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:15:55.125+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:55.124+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:15:55.129+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:55.128+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:15:55.158+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:55.157+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:15:55.180+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:55.180+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:15:55.182+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:55.181+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:15:55.249+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.463 seconds
+[2023-08-15T22:16:25.429+0300] {processor.py:157} INFO - Started process (PID=259752) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:16:25.432+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:16:25.434+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:25.433+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:16:25.564+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:16:25.621+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:25.620+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:16:25.699+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:25.698+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:16:25.711+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:25.711+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:16:25.715+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:25.714+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:16:25.740+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:25.740+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:16:25.758+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:25.758+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:16:25.759+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:25.759+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:16:25.826+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.409 seconds
+[2023-08-15T22:16:56.102+0300] {processor.py:157} INFO - Started process (PID=260154) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:16:56.103+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:16:56.105+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:56.104+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:16:56.193+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:16:56.228+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:56.228+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:16:56.274+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:56.273+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:16:56.281+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:56.280+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:16:56.283+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:56.283+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:16:56.299+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:56.298+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:16:56.310+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:56.309+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:16:56.310+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:56.310+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:16:56.345+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.252 seconds
+[2023-08-15T22:17:26.819+0300] {processor.py:157} INFO - Started process (PID=260739) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:17:26.824+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:17:26.827+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:26.826+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:17:26.967+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:17:27.024+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:27.023+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:17:27.102+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:27.101+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:17:27.111+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:27.111+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:17:27.114+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:27.114+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:17:27.136+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:27.135+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:17:27.156+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:27.155+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:17:27.157+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:27.156+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:17:27.190+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.386 seconds
+[2023-08-15T22:17:57.779+0300] {processor.py:157} INFO - Started process (PID=261301) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:17:57.790+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:17:57.794+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:57.792+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:17:57.937+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:17:58.004+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:58.003+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:17:58.090+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:58.089+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:17:58.100+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:58.099+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:17:58.104+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:58.103+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:17:58.129+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:58.129+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:17:58.145+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:58.145+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:17:58.146+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:58.146+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:17:58.201+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.448 seconds
+[2023-08-15T22:18:28.881+0300] {processor.py:157} INFO - Started process (PID=261701) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:18:28.883+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:18:28.886+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:28.885+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:18:29.019+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:18:29.067+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:29.067+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:18:29.132+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:29.131+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:18:29.141+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:29.140+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:18:29.144+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:29.144+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:18:29.166+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:29.166+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:18:29.181+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:29.180+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:18:29.182+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:29.182+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:18:29.224+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.352 seconds
+[2023-08-15T22:18:59.329+0300] {processor.py:157} INFO - Started process (PID=262061) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:18:59.332+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:18:59.335+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:59.333+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:18:59.490+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:18:59.553+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:59.553+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:18:59.641+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:59.640+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:18:59.655+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:59.654+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:18:59.659+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:59.659+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:18:59.692+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:59.691+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:18:59.716+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:59.716+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:18:59.718+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:59.717+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:18:59.770+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.456 seconds
+[2023-08-15T22:19:30.333+0300] {processor.py:157} INFO - Started process (PID=262636) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:19:30.348+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:19:30.352+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:30.351+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:19:30.481+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:19:30.539+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:30.539+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:19:30.634+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:30.633+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:19:30.644+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:30.644+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:19:30.648+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:30.647+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:19:30.669+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:30.668+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:19:30.684+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:30.684+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:19:30.685+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:30.685+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:19:30.729+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.410 seconds
+[2023-08-15T22:20:00.885+0300] {processor.py:157} INFO - Started process (PID=263163) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:20:00.889+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:20:00.893+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:00.891+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:20:01.009+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:20:01.061+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:01.060+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:20:01.124+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:01.123+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:20:01.131+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:01.131+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:20:01.134+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:01.134+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:20:01.155+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:01.155+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:20:01.170+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:01.170+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:20:01.171+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:01.171+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:20:01.209+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.338 seconds
+[2023-08-15T22:20:33.623+0300] {processor.py:157} INFO - Started process (PID=263632) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:20:33.626+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:20:33.630+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:33.628+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:20:34.146+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:20:34.512+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:34.511+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:20:34.912+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:34.911+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:20:35.019+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:35.018+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:20:35.105+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:35.105+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:20:35.337+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:35.337+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:20:35.489+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:35.488+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:20:35.490+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:35.490+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:20:36.076+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 2.477 seconds
+[2023-08-15T22:21:06.214+0300] {processor.py:157} INFO - Started process (PID=264340) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:21:06.351+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:21:06.353+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:06.352+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:21:06.507+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:21:06.550+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:06.550+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:21:06.612+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:06.611+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:21:06.621+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:06.620+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:21:06.624+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:06.624+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:21:06.646+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:06.645+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:21:06.665+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:06.665+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:21:06.666+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:06.666+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:21:07.081+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.878 seconds
+[2023-08-15T22:21:37.558+0300] {processor.py:157} INFO - Started process (PID=264812) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:21:37.560+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:21:37.564+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:37.562+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:21:37.755+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:21:37.803+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:37.802+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:21:37.904+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:37.903+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:21:37.916+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:37.915+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:21:37.922+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:37.922+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:21:37.954+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:37.953+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:21:37.971+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:37.971+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:21:37.972+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:37.972+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:21:38.227+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.684 seconds
+[2023-08-15T22:22:08.761+0300] {processor.py:157} INFO - Started process (PID=265491) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:22:08.791+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:22:08.793+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:08.792+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:22:08.867+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:22:08.905+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:08.905+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:22:08.991+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:08.991+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:22:08.999+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:08.999+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:22:09.001+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:09.001+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:22:09.019+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:09.018+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:22:09.031+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:09.031+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:22:09.032+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:09.032+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:22:09.630+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.877 seconds
+[2023-08-15T22:22:40.036+0300] {processor.py:157} INFO - Started process (PID=265987) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:22:40.039+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:22:40.041+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:40.040+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:22:40.164+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:22:40.228+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:40.227+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:22:40.332+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:40.331+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:22:40.349+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:40.349+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:22:40.355+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:40.354+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:22:40.395+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:40.394+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:22:40.418+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:40.418+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:22:40.420+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:40.419+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:22:40.473+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.449 seconds
+[2023-08-15T22:23:10.872+0300] {processor.py:157} INFO - Started process (PID=266384) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:23:10.890+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:23:10.892+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:10.891+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:23:11.020+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:23:11.070+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:11.070+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:23:11.146+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:11.145+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:23:11.157+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:11.156+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:23:11.160+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:11.160+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:23:11.185+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:11.184+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:23:11.203+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:11.203+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:23:11.204+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:11.204+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:23:11.243+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.383 seconds
+[2023-08-15T22:23:41.322+0300] {processor.py:157} INFO - Started process (PID=266789) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:23:41.339+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:23:41.341+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:41.340+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:23:41.453+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:23:41.506+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:41.505+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:23:41.582+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:41.581+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:23:41.594+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:41.593+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:23:41.597+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:41.597+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:23:41.623+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:41.623+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:23:41.642+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:41.641+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:23:41.643+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:41.642+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:23:41.694+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.382 seconds
+[2023-08-15T22:24:11.913+0300] {processor.py:157} INFO - Started process (PID=267336) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:24:12.019+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:24:12.021+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:12.021+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:24:12.119+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:24:12.168+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:12.168+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:24:12.231+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:12.231+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:24:12.240+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:12.239+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:24:12.243+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:12.242+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:24:12.264+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:12.263+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:24:12.280+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:12.280+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:24:12.281+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:12.281+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:24:12.318+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.415 seconds
+[2023-08-15T22:24:42.716+0300] {processor.py:157} INFO - Started process (PID=267972) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:24:42.732+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:24:42.734+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:42.733+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:24:42.826+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:24:42.867+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:42.866+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:24:42.931+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:42.930+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:24:42.941+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:42.941+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:24:42.945+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:42.944+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:24:42.969+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:42.969+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:24:42.993+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:42.992+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:24:42.993+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:42.993+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:24:43.036+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.329 seconds
+[2023-08-15T22:25:13.540+0300] {processor.py:157} INFO - Started process (PID=268364) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:25:13.542+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:25:13.545+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:13.544+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:25:13.671+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:25:13.725+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:13.725+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:25:13.801+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:13.800+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:25:13.811+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:13.811+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:25:13.815+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:13.815+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:25:13.839+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:13.839+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:25:13.859+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:13.859+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:25:13.860+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:13.860+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:25:13.911+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.382 seconds
+[2023-08-15T22:25:44.246+0300] {processor.py:157} INFO - Started process (PID=268765) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:25:44.260+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:25:44.262+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:44.261+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:25:44.353+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:25:44.397+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:44.397+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:25:44.467+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:44.466+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:25:44.478+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:44.478+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:25:44.481+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:44.481+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:25:44.504+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:44.503+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:25:44.526+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:44.526+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:25:44.527+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:44.527+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:25:44.578+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.343 seconds
+[2023-08-15T22:26:15.461+0300] {processor.py:157} INFO - Started process (PID=269318) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:26:15.476+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:26:15.480+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:15.478+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:26:15.656+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:26:15.748+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:15.748+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:26:15.842+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:15.841+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:26:15.851+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:15.850+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:26:15.855+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:15.854+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:26:15.915+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:15.914+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:26:15.958+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:15.958+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:26:15.960+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:15.959+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:26:16.048+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.602 seconds
+[2023-08-15T22:26:46.235+0300] {processor.py:157} INFO - Started process (PID=269858) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:26:46.255+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-08-15T22:26:46.257+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:46.256+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:26:46.422+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-08-15T22:26:46.487+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:46.486+0300] {dag.py:2742} INFO - Sync 3 DAGs
+[2023-08-15T22:26:46.594+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:46.593+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-08-15T22:26:46.612+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:46.612+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:26:46.624+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:46.623+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:26:46.664+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:46.663+0300] {dag.py:2742} INFO - Sync 2 DAGs
+[2023-08-15T22:26:46.689+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:46.688+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-08-15T22:26:46.691+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:46.690+0300] {dag.py:3504} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-08-15T22:26:46.735+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.512 seconds

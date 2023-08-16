@@ -148,3 +148,345 @@
 [2023-08-15T21:57:47.919+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:47.918+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
 [2023-08-15T21:57:47.920+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2023-08-15T21:57:48.029+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.141 seconds
+[2023-08-15T21:58:18.267+0300] {processor.py:157} INFO - Started process (PID=243521) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:58:18.271+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T21:58:18.273+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:18.272+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:58:18.284+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:18.283+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T21:58:18.285+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:58:18.388+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.137 seconds
+[2023-08-15T21:58:49.386+0300] {processor.py:157} INFO - Started process (PID=244104) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:58:49.389+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T21:58:49.392+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:49.391+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:58:49.410+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:49.409+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T21:58:49.411+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:58:49.510+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.137 seconds
+[2023-08-15T21:59:19.864+0300] {processor.py:157} INFO - Started process (PID=244621) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:59:19.870+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T21:59:19.872+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:19.871+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:59:19.892+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:19.892+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T21:59:19.939+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:59:20.082+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.241 seconds
+[2023-08-15T21:59:50.737+0300] {processor.py:157} INFO - Started process (PID=244975) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:59:50.740+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T21:59:50.747+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:50.742+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:59:50.760+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:50.759+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T21:59:50.762+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T21:59:50.880+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.161 seconds
+[2023-08-15T22:00:21.064+0300] {processor.py:157} INFO - Started process (PID=245358) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:00:21.067+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:00:21.070+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:21.069+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:00:21.082+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:21.082+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:00:21.084+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:00:21.216+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.166 seconds
+[2023-08-15T22:00:52.894+0300] {processor.py:157} INFO - Started process (PID=245759) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:00:52.908+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:00:52.911+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:52.910+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:00:52.948+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:52.934+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:00:52.950+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:00:53.151+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.277 seconds
+[2023-08-15T22:01:23.249+0300] {processor.py:157} INFO - Started process (PID=246321) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:01:23.253+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:01:23.256+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:23.255+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:01:23.267+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:23.267+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:01:23.269+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:01:23.365+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.128 seconds
+[2023-08-15T22:01:53.536+0300] {processor.py:157} INFO - Started process (PID=246862) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:01:53.623+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:01:53.626+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:53.625+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:01:53.649+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:53.649+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:01:53.666+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:01:53.933+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.412 seconds
+[2023-08-15T22:02:24.242+0300] {processor.py:157} INFO - Started process (PID=247231) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:02:24.244+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:02:24.247+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:24.246+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:02:24.258+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:24.257+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:02:24.259+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:02:24.360+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.132 seconds
+[2023-08-15T22:02:54.756+0300] {processor.py:157} INFO - Started process (PID=247566) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:02:54.769+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:02:54.772+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:54.771+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:02:54.783+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:54.783+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:02:54.784+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:02:54.869+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.125 seconds
+[2023-08-15T22:03:25.799+0300] {processor.py:157} INFO - Started process (PID=247945) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:03:25.814+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:03:25.817+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:25.816+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:03:25.827+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:25.827+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:03:25.829+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:03:25.915+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.131 seconds
+[2023-08-15T22:03:56.339+0300] {processor.py:157} INFO - Started process (PID=248516) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:03:56.348+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:03:56.352+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:56.351+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:03:56.360+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:56.359+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:03:56.361+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:03:56.456+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.131 seconds
+[2023-08-15T22:04:27.431+0300] {processor.py:157} INFO - Started process (PID=249070) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:04:27.434+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:04:27.437+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:27.435+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:04:27.447+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:27.447+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:04:27.448+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:04:27.537+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.121 seconds
+[2023-08-15T22:04:58.365+0300] {processor.py:157} INFO - Started process (PID=249464) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:04:58.369+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:04:58.372+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:58.371+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:04:58.389+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:58.388+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:04:58.390+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:04:58.481+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.141 seconds
+[2023-08-15T22:05:28.891+0300] {processor.py:157} INFO - Started process (PID=249839) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:05:28.904+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:05:28.907+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:28.906+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:05:28.917+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:28.916+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:05:28.918+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:05:28.999+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.119 seconds
+[2023-08-15T22:05:59.430+0300] {processor.py:157} INFO - Started process (PID=250220) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:05:59.432+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:05:59.435+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:59.434+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:05:59.446+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:59.445+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:05:59.447+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:05:59.549+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.133 seconds
+[2023-08-15T22:06:30.191+0300] {processor.py:157} INFO - Started process (PID=250789) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:06:30.195+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:06:30.197+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:30.196+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:06:30.206+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:30.206+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:06:30.207+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:06:30.293+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.114 seconds
+[2023-08-15T22:07:00.737+0300] {processor.py:157} INFO - Started process (PID=251352) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:07:00.762+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:07:00.766+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:00.764+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:07:00.798+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:00.797+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:07:00.800+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:07:00.941+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.217 seconds
+[2023-08-15T22:07:31.509+0300] {processor.py:157} INFO - Started process (PID=251726) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:07:31.511+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:07:31.514+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:31.513+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:07:31.526+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:31.525+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:07:31.527+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:07:31.663+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.169 seconds
+[2023-08-15T22:08:02.602+0300] {processor.py:157} INFO - Started process (PID=252116) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:08:02.667+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:08:02.669+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:02.668+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:08:02.689+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:02.689+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:08:02.691+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:08:02.822+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.232 seconds
+[2023-08-15T22:08:33.064+0300] {processor.py:157} INFO - Started process (PID=252675) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:08:33.071+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:08:33.075+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:33.074+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:08:33.085+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:33.085+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:08:33.087+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:08:33.152+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.101 seconds
+[2023-08-15T22:09:03.408+0300] {processor.py:157} INFO - Started process (PID=253242) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:09:03.422+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:09:03.424+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:03.423+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:09:03.433+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:03.433+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:09:03.434+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:09:03.512+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.115 seconds
+[2023-08-15T22:09:33.744+0300] {processor.py:157} INFO - Started process (PID=253672) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:09:33.754+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:09:33.758+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:33.757+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:09:33.771+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:33.771+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:09:33.773+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:09:33.906+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.179 seconds
+[2023-08-15T22:10:04.413+0300] {processor.py:157} INFO - Started process (PID=254051) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:10:04.429+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:10:04.433+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:04.431+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:10:04.456+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:04.456+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:10:04.458+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:10:04.581+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.184 seconds
+[2023-08-15T22:10:35.138+0300] {processor.py:157} INFO - Started process (PID=254400) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:10:35.142+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:10:35.145+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:35.143+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:10:35.162+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:35.161+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:10:35.164+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:10:35.281+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.162 seconds
+[2023-08-15T22:11:05.809+0300] {processor.py:157} INFO - Started process (PID=254774) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:11:06.008+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:11:06.011+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:06.010+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:11:06.021+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:06.021+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:11:06.022+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:11:06.121+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.327 seconds
+[2023-08-15T22:11:36.521+0300] {processor.py:157} INFO - Started process (PID=255274) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:11:36.529+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:11:36.531+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:36.530+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:11:36.544+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:36.544+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:11:36.545+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:11:36.634+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.127 seconds
+[2023-08-15T22:12:07.366+0300] {processor.py:157} INFO - Started process (PID=255832) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:12:07.377+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:12:07.379+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:07.378+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:12:07.386+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:07.386+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:12:07.387+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:12:07.456+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.100 seconds
+[2023-08-15T22:12:38.360+0300] {processor.py:157} INFO - Started process (PID=256217) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:12:38.362+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:12:38.364+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:38.363+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:12:38.372+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:38.372+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:12:38.373+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:12:38.447+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.099 seconds
+[2023-08-15T22:13:09.004+0300] {processor.py:157} INFO - Started process (PID=256608) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:13:09.039+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:13:09.041+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:09.040+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:13:09.049+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:09.049+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:13:09.050+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:13:09.132+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.138 seconds
+[2023-08-15T22:13:40.000+0300] {processor.py:157} INFO - Started process (PID=257216) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:13:40.046+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:13:40.048+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:40.047+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:13:40.054+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:40.054+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:13:40.055+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:13:40.116+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.131 seconds
+[2023-08-15T22:14:10.474+0300] {processor.py:157} INFO - Started process (PID=257718) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:14:10.530+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:14:10.533+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:10.532+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:14:10.558+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:10.554+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:14:10.560+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:14:10.667+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.204 seconds
+[2023-08-15T22:14:41.108+0300] {processor.py:157} INFO - Started process (PID=258103) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:14:41.111+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:14:41.113+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:41.112+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:14:41.121+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:41.121+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:14:41.123+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:14:41.202+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.107 seconds
+[2023-08-15T22:15:11.726+0300] {processor.py:157} INFO - Started process (PID=258490) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:15:11.751+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:15:11.753+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:11.752+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:15:11.761+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:11.761+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:15:11.763+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:15:11.855+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.141 seconds
+[2023-08-15T22:15:42.435+0300] {processor.py:157} INFO - Started process (PID=259093) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:15:42.492+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:15:42.493+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:42.493+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:15:42.500+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:42.500+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:15:42.501+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:15:42.599+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.174 seconds
+[2023-08-15T22:16:13.053+0300] {processor.py:157} INFO - Started process (PID=259603) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:16:13.087+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:16:13.090+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:13.089+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:16:13.105+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:13.105+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:16:13.108+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:16:13.255+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.223 seconds
+[2023-08-15T22:16:43.679+0300] {processor.py:157} INFO - Started process (PID=259992) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:16:43.691+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:16:43.693+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:43.693+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:16:43.702+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:43.702+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:16:43.703+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:16:43.767+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.098 seconds
+[2023-08-15T22:17:13.917+0300] {processor.py:157} INFO - Started process (PID=260381) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:17:13.919+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:17:13.922+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:13.921+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:17:13.931+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:13.931+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:17:13.933+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:17:14.087+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.182 seconds
+[2023-08-15T22:17:44.226+0300] {processor.py:157} INFO - Started process (PID=260942) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:17:44.241+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:17:44.244+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:44.243+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:17:44.253+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:44.253+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:17:44.255+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:17:44.353+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.139 seconds
+[2023-08-15T22:18:14.663+0300] {processor.py:157} INFO - Started process (PID=261504) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:18:14.680+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:18:14.682+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:14.681+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:18:14.691+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:14.690+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:18:14.692+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:18:14.765+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.115 seconds
+[2023-08-15T22:18:45.126+0300] {processor.py:157} INFO - Started process (PID=261884) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:18:45.128+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:18:45.129+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:45.128+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:18:45.136+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:45.136+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:18:45.138+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:18:45.192+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.078 seconds
+[2023-08-15T22:19:15.299+0300] {processor.py:157} INFO - Started process (PID=262264) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:19:15.301+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:19:15.303+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:15.302+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:19:15.312+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:15.312+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:19:15.314+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:19:15.399+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.111 seconds
+[2023-08-15T22:19:45.869+0300] {processor.py:157} INFO - Started process (PID=262810) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:19:45.884+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:19:45.885+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:45.885+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:19:45.891+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:45.891+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:19:45.892+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:19:45.960+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.099 seconds
+[2023-08-15T22:20:16.556+0300] {processor.py:157} INFO - Started process (PID=263360) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:20:16.562+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:20:16.565+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:16.564+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:20:16.576+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:16.575+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:20:16.577+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:20:16.679+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.138 seconds
+[2023-08-15T22:20:47.437+0300] {processor.py:157} INFO - Started process (PID=263850) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:20:47.439+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:20:47.442+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:47.441+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:20:47.451+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:47.450+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:20:47.452+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:20:47.524+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.099 seconds
+[2023-08-15T22:21:18.764+0300] {processor.py:157} INFO - Started process (PID=264538) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:21:18.775+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:21:18.777+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:18.776+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:21:18.783+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:18.783+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:21:18.784+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:21:18.860+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.105 seconds
+[2023-08-15T22:21:49.213+0300] {processor.py:157} INFO - Started process (PID=265163) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:21:49.433+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:21:49.437+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:49.436+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:21:49.452+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:49.451+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:21:49.456+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:21:49.686+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.515 seconds
+[2023-08-15T22:22:19.982+0300] {processor.py:157} INFO - Started process (PID=265761) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:22:20.087+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:22:20.090+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:20.089+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:22:20.113+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:20.112+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:22:20.127+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:22:20.232+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.269 seconds
+[2023-08-15T22:22:50.753+0300] {processor.py:157} INFO - Started process (PID=266144) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:22:50.755+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:22:50.757+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:50.756+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:22:50.777+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:50.777+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:22:50.778+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:22:50.864+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.141 seconds
+[2023-08-15T22:23:21.528+0300] {processor.py:157} INFO - Started process (PID=266547) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:23:21.544+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:23:21.547+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:21.546+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:23:21.560+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:21.560+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:23:21.562+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:23:21.661+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.149 seconds
+[2023-08-15T22:23:51.785+0300] {processor.py:157} INFO - Started process (PID=266937) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:23:51.788+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:23:51.791+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:51.790+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:23:51.801+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:51.801+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:23:51.803+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:23:51.943+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.172 seconds
+[2023-08-15T22:24:22.581+0300] {processor.py:157} INFO - Started process (PID=267538) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:24:22.600+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:24:22.603+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:22.602+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:24:22.612+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:22.611+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:24:22.613+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:24:22.702+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.134 seconds
+[2023-08-15T22:24:53.472+0300] {processor.py:157} INFO - Started process (PID=268100) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:24:53.491+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:24:53.494+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:53.493+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:24:53.509+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:53.508+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:24:53.510+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:24:53.625+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.168 seconds
+[2023-08-15T22:25:23.933+0300] {processor.py:157} INFO - Started process (PID=268492) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:25:23.947+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:25:23.950+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:23.949+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:25:23.960+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:23.960+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:25:23.962+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:25:24.060+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.141 seconds
+[2023-08-15T22:25:54.380+0300] {processor.py:157} INFO - Started process (PID=268895) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:25:54.384+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:25:54.387+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:54.386+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:25:54.400+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:54.399+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:25:54.401+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:25:54.513+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.150 seconds
+[2023-08-15T22:26:24.877+0300] {processor.py:157} INFO - Started process (PID=269403) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:26:24.911+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:26:24.913+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:24.912+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:26:24.922+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:24.922+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:26:24.923+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:26:24.996+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.129 seconds
+[2023-08-15T22:26:55.397+0300] {processor.py:157} INFO - Started process (PID=269973) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:26:55.421+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-08-15T22:26:55.423+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:55.422+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:26:55.431+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:55.431+0300] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-08-15T22:26:55.433+0300] {processor.py:838} WARNING - No viable dags retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-08-15T22:26:55.511+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.128 seconds

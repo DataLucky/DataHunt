@@ -167,3 +167,402 @@
 [2023-08-15T21:57:38.680+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:38.679+0300] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-15T21:57:38.807+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:57:38.807+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
 [2023-08-15T21:57:38.984+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.507 seconds
+[2023-08-15T21:58:10.595+0300] {processor.py:157} INFO - Started process (PID=243392) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:58:10.607+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T21:58:10.610+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:10.609+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:58:10.679+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:58:10.874+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:10.873+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:58:10.998+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:10.997+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T21:58:11.127+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.577 seconds
+[2023-08-15T21:58:41.843+0300] {processor.py:157} INFO - Started process (PID=243862) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:58:42.049+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T21:58:42.051+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:42.050+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:58:42.070+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:58:42.199+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:42.198+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:58:42.293+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:42.293+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T21:58:42.497+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.674 seconds
+[2023-08-15T21:59:13.000+0300] {processor.py:157} INFO - Started process (PID=244352) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:59:13.014+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T21:59:13.017+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:13.016+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:59:13.040+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:59:13.170+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:13.169+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:59:13.238+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:13.238+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T21:59:13.299+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.311 seconds
+[2023-08-15T21:59:43.768+0300] {processor.py:157} INFO - Started process (PID=244891) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:59:43.771+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T21:59:43.774+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:43.773+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:59:43.801+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T21:59:43.945+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:43.944+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:59:44.055+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:44.054+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T21:59:44.146+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.394 seconds
+[2023-08-15T22:00:14.456+0300] {processor.py:157} INFO - Started process (PID=245279) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:00:14.461+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:00:14.464+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:14.463+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:00:14.494+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:00:14.635+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:14.635+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:00:14.740+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:14.739+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:00:14.867+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.428 seconds
+[2023-08-15T22:00:45.603+0300] {processor.py:157} INFO - Started process (PID=245628) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:00:45.606+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:00:45.608+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:45.607+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:00:45.630+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:00:45.746+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:45.745+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:00:45.847+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:45.847+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:00:45.923+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.331 seconds
+[2023-08-15T22:01:16.308+0300] {processor.py:157} INFO - Started process (PID=246205) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:01:16.336+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:01:16.338+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:16.337+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:01:16.358+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:01:16.494+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:16.493+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:01:16.588+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:16.588+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:01:16.662+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.369 seconds
+[2023-08-15T22:01:47.615+0300] {processor.py:157} INFO - Started process (PID=246778) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:01:47.625+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:01:47.628+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:47.627+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:01:47.704+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:01:47.945+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:47.944+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:01:48.107+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:48.106+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:01:48.251+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.695 seconds
+[2023-08-15T22:02:18.794+0300] {processor.py:157} INFO - Started process (PID=247143) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:02:18.796+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:02:18.798+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:18.798+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:02:18.816+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:02:18.908+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:18.908+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:02:18.971+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:18.971+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:02:19.044+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.260 seconds
+[2023-08-15T22:02:49.561+0300] {processor.py:157} INFO - Started process (PID=247522) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:02:49.564+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:02:49.567+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:49.566+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:02:49.593+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:02:49.756+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:49.756+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:02:49.857+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:49.857+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:02:49.933+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.385 seconds
+[2023-08-15T22:03:20.326+0300] {processor.py:157} INFO - Started process (PID=247906) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:03:20.383+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:03:20.386+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:20.385+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:03:20.411+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:03:20.619+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:20.619+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:03:20.756+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:20.755+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:03:20.860+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.548 seconds
+[2023-08-15T22:03:51.371+0300] {processor.py:157} INFO - Started process (PID=248478) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:03:51.458+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:03:51.462+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:51.461+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:03:51.531+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:03:51.690+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:51.689+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:03:51.798+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:51.797+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:03:51.909+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.553 seconds
+[2023-08-15T22:04:22.112+0300] {processor.py:157} INFO - Started process (PID=249025) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:04:22.114+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:04:22.118+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:22.116+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:04:22.147+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:04:22.270+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:22.270+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:04:22.372+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:22.372+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:04:22.427+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.328 seconds
+[2023-08-15T22:04:53.007+0300] {processor.py:157} INFO - Started process (PID=249393) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:04:53.009+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:04:53.011+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:53.010+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:04:53.032+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:04:53.236+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:53.235+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:04:53.393+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:53.393+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:04:53.563+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.581 seconds
+[2023-08-15T22:05:23.950+0300] {processor.py:157} INFO - Started process (PID=249773) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:05:23.953+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:05:23.957+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:23.955+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:05:23.987+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:05:24.095+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:24.095+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:05:24.184+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:24.183+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:05:24.267+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.334 seconds
+[2023-08-15T22:05:54.646+0300] {processor.py:157} INFO - Started process (PID=250148) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:05:54.649+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:05:54.652+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:54.651+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:05:54.681+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:05:54.779+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:54.779+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:05:54.847+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:54.846+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:05:54.911+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.283 seconds
+[2023-08-15T22:06:25.168+0300] {processor.py:157} INFO - Started process (PID=250715) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:06:25.175+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:06:25.178+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:25.177+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:06:25.205+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:06:25.345+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:25.345+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:06:25.421+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:25.421+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:06:25.495+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.346 seconds
+[2023-08-15T22:06:55.588+0300] {processor.py:157} INFO - Started process (PID=251277) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:06:55.600+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:06:55.602+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:55.602+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:06:55.621+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:06:55.716+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:55.716+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:06:55.782+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:55.782+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:06:55.859+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.282 seconds
+[2023-08-15T22:07:26.207+0300] {processor.py:157} INFO - Started process (PID=251671) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:07:26.210+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:07:26.213+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:26.212+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:07:26.236+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:07:26.394+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:26.393+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:07:26.519+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:26.519+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:07:26.586+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.392 seconds
+[2023-08-15T22:07:57.317+0300] {processor.py:157} INFO - Started process (PID=252058) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:07:57.339+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:07:57.343+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:57.341+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:07:57.377+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:07:57.637+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:57.637+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:07:57.890+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:57.885+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:07:58.022+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.723 seconds
+[2023-08-15T22:08:28.415+0300] {processor.py:157} INFO - Started process (PID=252635) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:08:28.427+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:08:28.430+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:28.429+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:08:28.458+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:08:28.599+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:28.599+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:08:28.696+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:28.695+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:08:28.816+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.428 seconds
+[2023-08-15T22:08:59.630+0300] {processor.py:157} INFO - Started process (PID=253192) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:08:59.651+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:08:59.656+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:59.655+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:08:59.688+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:08:59.814+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:59.814+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:08:59.907+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:59.907+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:08:59.978+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.373 seconds
+[2023-08-15T22:09:30.272+0300] {processor.py:157} INFO - Started process (PID=253642) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:09:30.280+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:09:30.283+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:30.281+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:09:30.340+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:09:30.727+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:30.721+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:09:30.906+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:30.906+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:09:31.249+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 1.008 seconds
+[2023-08-15T22:10:01.543+0300] {processor.py:157} INFO - Started process (PID=253988) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:10:01.592+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:10:01.594+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:01.593+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:10:01.629+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:10:01.955+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:01.954+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:10:02.129+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:02.129+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:10:02.203+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.679 seconds
+[2023-08-15T22:10:32.364+0300] {processor.py:157} INFO - Started process (PID=254345) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:10:32.475+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:10:32.478+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:32.477+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:10:32.504+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:10:32.647+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:32.647+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:10:32.730+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:32.729+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:10:32.997+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.647 seconds
+[2023-08-15T22:11:03.581+0300] {processor.py:157} INFO - Started process (PID=254714) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:11:03.635+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:11:03.638+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:03.637+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:11:03.657+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:11:03.824+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:03.823+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:11:03.966+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:03.965+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:11:04.087+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.523 seconds
+[2023-08-15T22:11:34.186+0300] {processor.py:157} INFO - Started process (PID=255261) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:11:34.201+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:11:34.204+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:34.203+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:11:34.223+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:11:34.297+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:34.296+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:11:34.348+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:34.348+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:11:34.400+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.225 seconds
+[2023-08-15T22:12:04.973+0300] {processor.py:157} INFO - Started process (PID=255819) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:12:04.983+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:12:04.985+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:04.984+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:12:05.005+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:12:05.119+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:05.119+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:12:05.201+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:05.200+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:12:05.264+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.306 seconds
+[2023-08-15T22:12:35.525+0300] {processor.py:157} INFO - Started process (PID=256203) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:12:35.527+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:12:35.530+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:35.529+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:12:35.552+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:12:35.679+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:35.678+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:12:35.769+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:35.769+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:12:35.868+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.356 seconds
+[2023-08-15T22:13:06.227+0300] {processor.py:157} INFO - Started process (PID=256594) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:13:06.230+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:13:06.233+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:06.232+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:13:06.257+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:13:06.383+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:06.383+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:13:06.468+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:06.467+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:13:06.573+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.360 seconds
+[2023-08-15T22:13:37.160+0300] {processor.py:157} INFO - Started process (PID=257153) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:13:37.176+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:13:37.179+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:37.178+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:13:37.202+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:13:37.325+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:37.325+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:13:37.411+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:37.410+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:13:37.510+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.364 seconds
+[2023-08-15T22:14:07.823+0300] {processor.py:157} INFO - Started process (PID=257702) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:14:07.826+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:14:07.828+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:07.827+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:14:07.846+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:14:07.966+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:07.966+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:14:08.043+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:08.043+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:14:08.108+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.295 seconds
+[2023-08-15T22:14:38.369+0300] {processor.py:157} INFO - Started process (PID=258087) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:14:38.371+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:14:38.374+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:38.373+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:14:38.398+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:14:38.527+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:38.527+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:14:38.628+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:38.628+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:14:38.733+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.378 seconds
+[2023-08-15T22:15:09.014+0300] {processor.py:157} INFO - Started process (PID=258455) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:15:09.016+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:15:09.018+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:09.017+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:15:09.037+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:15:09.134+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:09.133+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:15:09.195+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:09.195+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:15:09.293+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.290 seconds
+[2023-08-15T22:15:39.528+0300] {processor.py:157} INFO - Started process (PID=258998) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:15:39.537+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:15:39.540+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:39.539+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:15:39.564+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:15:39.671+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:39.670+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:15:39.765+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:39.764+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:15:39.854+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.337 seconds
+[2023-08-15T22:16:09.937+0300] {processor.py:157} INFO - Started process (PID=259534) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:16:09.939+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:16:09.941+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:09.940+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:16:09.960+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:16:10.054+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:10.054+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:16:10.117+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:10.117+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:16:10.170+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.244 seconds
+[2023-08-15T22:16:41.079+0300] {processor.py:157} INFO - Started process (PID=259946) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:16:41.081+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:16:41.083+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:41.083+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:16:41.104+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:16:41.196+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:41.195+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:16:41.262+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:41.262+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:16:41.322+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.256 seconds
+[2023-08-15T22:17:12.115+0300] {processor.py:157} INFO - Started process (PID=260354) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:17:12.117+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:17:12.120+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:12.119+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:17:12.140+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:17:12.259+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:12.259+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:17:12.338+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:12.337+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:17:12.474+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.371 seconds
+[2023-08-15T22:17:43.162+0300] {processor.py:157} INFO - Started process (PID=260917) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:17:43.172+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:17:43.175+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:43.174+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:17:43.196+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:17:43.325+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:43.325+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:17:43.411+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:43.411+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:17:43.519+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.368 seconds
+[2023-08-15T22:18:13.851+0300] {processor.py:157} INFO - Started process (PID=261479) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:18:13.863+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:18:13.867+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:13.864+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:18:13.887+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:18:13.996+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:13.996+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:18:14.072+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:14.072+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:18:14.145+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.305 seconds
+[2023-08-15T22:18:44.588+0300] {processor.py:157} INFO - Started process (PID=261866) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:18:44.591+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:18:44.593+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:44.592+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:18:44.615+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:18:44.739+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:44.739+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:18:44.819+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:44.819+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:18:44.911+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.338 seconds
+[2023-08-15T22:19:15.503+0300] {processor.py:157} INFO - Started process (PID=262267) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:19:15.520+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:19:15.523+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:15.521+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:19:15.544+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:19:15.630+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:15.630+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:19:15.684+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:15.684+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:19:15.731+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.253 seconds
+[2023-08-15T22:19:46.330+0300] {processor.py:157} INFO - Started process (PID=262817) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:19:46.347+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:19:46.349+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:46.348+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:19:46.371+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:19:46.520+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:46.520+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:19:46.597+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:46.597+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:19:46.718+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.399 seconds
+[2023-08-15T22:20:17.346+0300] {processor.py:157} INFO - Started process (PID=263368) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:20:17.349+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:20:17.352+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:17.351+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:20:17.396+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:20:17.515+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:17.515+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:20:17.600+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:17.600+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:20:17.672+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.341 seconds
+[2023-08-15T22:20:50.621+0300] {processor.py:157} INFO - Started process (PID=263917) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:20:50.630+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:20:50.633+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:50.632+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:20:50.680+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:20:50.960+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:50.960+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:20:51.321+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:51.321+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:20:51.630+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 1.029 seconds
+[2023-08-15T22:21:22.425+0300] {processor.py:157} INFO - Started process (PID=264585) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:21:22.427+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:21:22.429+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:22.428+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:21:22.450+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:21:22.562+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:22.561+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:21:22.652+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:22.651+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:21:22.745+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.332 seconds
+[2023-08-15T22:21:57.591+0300] {processor.py:157} INFO - Started process (PID=265320) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:21:57.633+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:21:57.636+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:57.635+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:21:57.664+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:21:57.813+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:57.812+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:21:57.937+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:57.937+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:21:58.064+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.497 seconds
+[2023-08-15T22:22:28.600+0300] {processor.py:157} INFO - Started process (PID=265870) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:22:28.603+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:22:28.606+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:28.605+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:22:28.629+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:22:28.751+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:28.750+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:22:28.840+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:28.839+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:22:28.941+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.353 seconds
+[2023-08-15T22:22:59.165+0300] {processor.py:157} INFO - Started process (PID=266265) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:22:59.167+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:22:59.170+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:59.169+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:22:59.191+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:22:59.304+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:59.304+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:22:59.391+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:59.390+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:22:59.480+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.328 seconds
+[2023-08-15T22:23:30.041+0300] {processor.py:157} INFO - Started process (PID=266634) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:23:30.057+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:23:30.060+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:30.059+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:23:30.083+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:23:30.222+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:30.221+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:23:30.319+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:30.318+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:23:30.490+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.464 seconds
+[2023-08-15T22:24:00.629+0300] {processor.py:157} INFO - Started process (PID=267074) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:24:00.827+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:24:00.830+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:00.829+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:24:00.848+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:24:00.932+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:00.931+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:24:01.039+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:01.038+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:24:01.172+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.554 seconds
+[2023-08-15T22:24:31.552+0300] {processor.py:157} INFO - Started process (PID=267823) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:24:31.574+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:24:31.576+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:31.575+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:24:31.594+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:24:31.674+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:31.674+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:24:31.726+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:31.725+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:24:31.787+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.245 seconds
+[2023-08-15T22:25:02.114+0300] {processor.py:157} INFO - Started process (PID=268227) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:25:02.116+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:25:02.117+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:02.117+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:25:02.133+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:25:02.211+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:02.211+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:25:02.264+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:02.263+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:25:02.319+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.217 seconds
+[2023-08-15T22:25:32.691+0300] {processor.py:157} INFO - Started process (PID=268622) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:25:32.693+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:25:32.695+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:32.695+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:25:32.714+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:25:32.789+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:32.789+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:25:32.856+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:32.856+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:25:33.089+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.409 seconds
+[2023-08-15T22:26:03.671+0300] {processor.py:157} INFO - Started process (PID=269021) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:26:03.673+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:26:03.675+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:03.674+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:26:03.694+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:26:03.798+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:03.797+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:26:03.886+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:03.885+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:26:04.011+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.350 seconds
+[2023-08-15T22:26:34.227+0300] {processor.py:157} INFO - Started process (PID=269716) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:26:34.253+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:26:34.256+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:34.255+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:26:34.279+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:26:34.397+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:34.397+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:26:34.461+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:34.460+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:26:34.536+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.322 seconds
+[2023-08-15T22:27:05.103+0300] {processor.py:157} INFO - Started process (PID=270163) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:27:05.347+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-08-15T22:27:05.349+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:27:05.348+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:27:05.447+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-08-15T22:27:05.584+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:27:05.583+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:27:05.661+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:27:05.660+0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-08-15T22:27:06.504+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 1.488 seconds

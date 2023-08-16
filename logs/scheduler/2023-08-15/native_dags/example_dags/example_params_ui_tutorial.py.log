@@ -174,3 +174,395 @@
 [2023-08-15T21:58:03.229+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:03.229+0300] {dag.py:2742} INFO - Sync 1 DAGs
 [2023-08-15T21:58:03.320+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:03.319+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
 [2023-08-15T21:58:03.400+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.528 seconds
+[2023-08-15T21:58:34.110+0300] {processor.py:157} INFO - Started process (PID=243729) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:58:34.133+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T21:58:34.144+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:34.143+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:58:34.379+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:58:34.901+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:34.901+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:58:35.064+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:58:35.064+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T21:58:35.220+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 1.138 seconds
+[2023-08-15T21:59:05.570+0300] {processor.py:157} INFO - Started process (PID=244265) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:59:05.583+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T21:59:05.585+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:05.584+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:59:05.660+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:59:05.786+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:05.785+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:59:05.851+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:05.850+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T21:59:05.949+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.394 seconds
+[2023-08-15T21:59:36.132+0300] {processor.py:157} INFO - Started process (PID=244800) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:59:36.150+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T21:59:36.151+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:36.151+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:59:36.210+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T21:59:36.335+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:36.335+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T21:59:36.416+0300] {logging_mixin.py:150} INFO - [2023-08-15T21:59:36.416+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T21:59:36.477+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.355 seconds
+[2023-08-15T22:00:06.541+0300] {processor.py:157} INFO - Started process (PID=245187) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:00:06.550+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:00:06.552+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:06.551+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:00:06.613+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:00:06.727+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:06.726+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:00:06.781+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:06.781+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:00:06.841+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.311 seconds
+[2023-08-15T22:00:37.176+0300] {processor.py:157} INFO - Started process (PID=245575) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:00:37.179+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:00:37.182+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:37.181+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:00:37.264+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:00:37.405+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:37.405+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:00:37.473+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:00:37.472+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:00:37.532+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.368 seconds
+[2023-08-15T22:01:07.782+0300] {processor.py:157} INFO - Started process (PID=245932) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:01:07.791+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:01:07.798+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:07.792+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:01:07.927+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:01:08.119+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:08.118+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:01:08.203+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:08.203+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:01:08.273+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.505 seconds
+[2023-08-15T22:01:38.422+0300] {processor.py:157} INFO - Started process (PID=246461) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:01:38.429+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:01:38.432+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:38.431+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:01:38.532+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:01:38.772+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:38.771+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:01:38.933+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:01:38.933+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:01:39.103+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.696 seconds
+[2023-08-15T22:02:09.402+0300] {processor.py:157} INFO - Started process (PID=247013) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:02:09.410+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:02:09.413+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:09.412+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:02:09.499+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:02:09.719+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:09.718+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:02:09.822+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:09.821+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:02:09.902+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.514 seconds
+[2023-08-15T22:02:40.081+0300] {processor.py:157} INFO - Started process (PID=247397) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:02:40.087+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:02:40.092+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:40.089+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:02:40.215+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:02:40.428+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:40.427+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:02:40.541+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:02:40.541+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:02:40.615+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.571 seconds
+[2023-08-15T22:03:10.815+0300] {processor.py:157} INFO - Started process (PID=247780) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:03:10.825+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:03:10.828+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:10.827+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:03:10.925+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:03:11.095+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:11.094+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:03:11.165+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:11.165+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:03:11.212+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.409 seconds
+[2023-08-15T22:03:42.327+0300] {processor.py:157} INFO - Started process (PID=248279) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:03:42.330+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:03:42.333+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:42.332+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:03:42.438+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:03:42.629+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:42.629+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:03:42.780+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:03:42.779+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:03:42.890+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.585 seconds
+[2023-08-15T22:04:13.149+0300] {processor.py:157} INFO - Started process (PID=248766) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:04:13.306+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:04:13.309+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:13.308+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:04:13.383+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:04:13.619+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:13.619+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:04:13.771+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:13.770+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:04:13.964+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.825 seconds
+[2023-08-15T22:04:44.272+0300] {processor.py:157} INFO - Started process (PID=249269) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:04:44.329+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:04:44.331+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:44.330+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:04:44.429+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:04:44.655+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:44.655+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:04:44.776+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:04:44.775+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:04:44.898+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.641 seconds
+[2023-08-15T22:05:15.116+0300] {processor.py:157} INFO - Started process (PID=249664) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:05:15.128+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:05:15.130+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:15.129+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:05:15.279+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:05:15.474+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:15.473+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:05:15.586+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:15.585+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:05:15.674+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.569 seconds
+[2023-08-15T22:05:45.898+0300] {processor.py:157} INFO - Started process (PID=250027) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:05:45.901+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:05:45.903+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:45.902+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:05:45.997+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:05:46.277+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:46.276+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:05:46.446+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:05:46.446+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:05:46.647+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.761 seconds
+[2023-08-15T22:06:16.943+0300] {processor.py:157} INFO - Started process (PID=250614) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:06:16.958+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:06:16.961+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:16.960+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:06:17.033+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:06:17.220+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:17.220+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:06:17.308+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:17.307+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:06:17.395+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.467 seconds
+[2023-08-15T22:06:47.621+0300] {processor.py:157} INFO - Started process (PID=251180) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:06:47.647+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:06:47.650+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:47.649+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:06:47.720+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:06:47.864+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:47.864+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:06:47.939+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:06:47.939+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:06:47.990+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.380 seconds
+[2023-08-15T22:07:18.613+0300] {processor.py:157} INFO - Started process (PID=251579) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:07:18.615+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:07:18.618+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:18.617+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:07:18.727+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:07:18.937+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:18.936+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:07:19.028+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:19.027+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:07:19.155+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.556 seconds
+[2023-08-15T22:07:49.328+0300] {processor.py:157} INFO - Started process (PID=251967) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:07:49.337+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:07:49.340+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:49.339+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:07:49.438+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:07:49.567+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:49.566+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:07:49.628+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:07:49.627+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:07:49.697+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.383 seconds
+[2023-08-15T22:08:20.396+0300] {processor.py:157} INFO - Started process (PID=252544) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:08:20.492+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:08:20.494+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:20.493+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:08:20.559+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:08:20.689+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:20.689+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:08:20.765+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:20.765+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:08:20.827+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.441 seconds
+[2023-08-15T22:08:52.350+0300] {processor.py:157} INFO - Started process (PID=253108) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:08:52.368+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:08:52.372+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:52.370+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:08:52.595+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:08:53.138+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:53.137+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:08:53.332+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:08:53.332+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:08:53.459+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 1.146 seconds
+[2023-08-15T22:09:24.913+0300] {processor.py:157} INFO - Started process (PID=253569) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:09:24.915+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:09:24.918+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:24.917+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:09:25.053+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:09:25.425+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:25.424+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:09:25.580+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:25.579+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:09:25.731+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.834 seconds
+[2023-08-15T22:09:55.996+0300] {processor.py:157} INFO - Started process (PID=253940) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:09:55.998+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:09:56.000+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:55.999+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:09:56.079+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:09:56.219+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:56.218+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:09:56.274+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:09:56.273+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:09:56.342+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.357 seconds
+[2023-08-15T22:10:27.312+0300] {processor.py:157} INFO - Started process (PID=254313) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:10:27.340+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:10:27.343+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:27.342+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:10:27.415+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:10:27.595+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:27.594+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:10:27.787+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:27.786+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:10:27.933+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.637 seconds
+[2023-08-15T22:10:58.085+0300] {processor.py:157} INFO - Started process (PID=254663) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:10:58.122+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:10:58.124+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:58.123+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:10:58.207+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:10:58.404+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:58.403+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:10:58.491+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:10:58.490+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:10:58.625+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.550 seconds
+[2023-08-15T22:11:29.574+0300] {processor.py:157} INFO - Started process (PID=255207) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:11:29.583+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:11:29.585+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:29.584+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:11:29.670+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:11:29.884+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:29.883+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:11:29.976+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:11:29.975+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:11:30.050+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.488 seconds
+[2023-08-15T22:12:00.274+0300] {processor.py:157} INFO - Started process (PID=255728) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:12:00.417+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:12:00.420+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:00.419+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:12:00.533+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:12:00.713+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:00.713+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:12:00.793+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:00.792+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:12:00.869+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.611 seconds
+[2023-08-15T22:12:31.064+0300] {processor.py:157} INFO - Started process (PID=256110) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:12:31.067+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:12:31.070+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:31.069+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:12:31.164+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:12:31.380+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:31.379+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:12:31.482+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:12:31.481+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:12:31.569+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.517 seconds
+[2023-08-15T22:13:01.898+0300] {processor.py:157} INFO - Started process (PID=256498) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:13:01.902+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:13:01.905+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:01.904+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:13:02.038+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:13:02.240+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:02.239+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:13:02.307+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:02.307+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:13:02.401+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.522 seconds
+[2023-08-15T22:13:32.563+0300] {processor.py:157} INFO - Started process (PID=257052) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:13:32.565+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:13:32.568+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:32.567+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:13:32.655+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:13:32.842+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:32.841+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:13:32.920+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:13:32.919+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:13:33.009+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.461 seconds
+[2023-08-15T22:14:03.142+0300] {processor.py:157} INFO - Started process (PID=257601) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:14:03.145+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:14:03.148+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:03.147+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:14:03.244+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:14:03.436+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:03.436+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:14:03.533+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:03.532+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:14:03.604+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.476 seconds
+[2023-08-15T22:14:33.928+0300] {processor.py:157} INFO - Started process (PID=257994) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:14:33.930+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:14:33.932+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:33.931+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:14:34.019+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:14:34.224+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:34.223+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:14:34.301+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:14:34.301+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:14:34.397+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.483 seconds
+[2023-08-15T22:15:04.528+0300] {processor.py:157} INFO - Started process (PID=258370) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:15:04.531+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:15:04.534+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:04.533+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:15:04.623+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:15:04.805+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:04.804+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:15:04.894+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:04.894+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:15:04.965+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.450 seconds
+[2023-08-15T22:15:35.145+0300] {processor.py:157} INFO - Started process (PID=258935) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:15:35.147+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:15:35.149+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:35.148+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:15:35.228+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:15:35.375+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:35.375+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:15:35.426+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:15:35.426+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:15:35.492+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.360 seconds
+[2023-08-15T22:16:05.802+0300] {processor.py:157} INFO - Started process (PID=259487) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:16:05.805+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:16:05.808+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:05.807+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:16:05.924+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:16:06.117+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:06.116+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:16:06.193+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:06.193+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:16:06.261+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.472 seconds
+[2023-08-15T22:16:36.412+0300] {processor.py:157} INFO - Started process (PID=259897) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:16:36.414+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:16:36.417+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:36.416+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:16:36.499+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:16:36.610+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:36.609+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:16:36.672+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:16:36.672+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:16:36.716+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.315 seconds
+[2023-08-15T22:17:07.074+0300] {processor.py:157} INFO - Started process (PID=260300) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:17:07.076+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:17:07.079+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:07.078+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:17:07.172+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:17:07.349+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:07.348+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:17:07.442+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:07.441+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:17:07.506+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.446 seconds
+[2023-08-15T22:17:37.833+0300] {processor.py:157} INFO - Started process (PID=260865) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:17:37.836+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:17:37.838+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:37.837+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:17:37.922+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:17:38.053+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:38.053+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:17:38.114+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:17:38.113+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:17:38.163+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.342 seconds
+[2023-08-15T22:18:08.823+0300] {processor.py:157} INFO - Started process (PID=261426) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:18:08.825+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:18:08.827+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:08.826+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:18:08.891+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:18:09.003+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:09.002+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:18:09.058+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:09.058+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:18:09.105+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.293 seconds
+[2023-08-15T22:18:39.396+0300] {processor.py:157} INFO - Started process (PID=261824) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:18:39.398+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:18:39.399+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:39.399+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:18:39.449+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:18:39.544+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:39.544+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:18:39.587+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:18:39.587+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:18:39.632+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.245 seconds
+[2023-08-15T22:19:09.779+0300] {processor.py:157} INFO - Started process (PID=262210) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:19:09.781+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:19:09.783+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:09.782+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:19:09.844+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:19:09.977+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:09.977+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:19:10.019+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:10.019+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:19:10.073+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.306 seconds
+[2023-08-15T22:19:41.027+0300] {processor.py:157} INFO - Started process (PID=262757) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:19:41.029+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:19:41.031+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:41.030+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:19:41.087+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:19:41.171+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:41.171+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:19:41.231+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:19:41.230+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:19:41.277+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.260 seconds
+[2023-08-15T22:20:11.618+0300] {processor.py:157} INFO - Started process (PID=263288) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:20:11.620+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:20:11.622+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:11.621+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:20:11.679+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:20:11.794+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:11.794+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:20:11.848+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:11.848+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:20:11.900+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.292 seconds
+[2023-08-15T22:20:46.005+0300] {processor.py:157} INFO - Started process (PID=263818) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:20:46.031+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:20:46.052+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:46.051+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:20:46.155+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:20:46.466+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:46.465+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:20:46.597+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:20:46.596+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:20:46.702+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.744 seconds
+[2023-08-15T22:21:17.596+0300] {processor.py:157} INFO - Started process (PID=264490) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:21:17.599+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:21:17.601+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:17.600+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:21:17.698+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:21:17.874+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:17.873+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:21:17.958+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:17.957+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:21:18.086+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.503 seconds
+[2023-08-15T22:21:49.917+0300] {processor.py:157} INFO - Started process (PID=265183) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:21:49.935+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:21:49.939+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:49.937+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:21:50.056+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:21:50.341+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:50.339+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:21:50.568+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:21:50.567+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:21:50.950+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 1.085 seconds
+[2023-08-15T22:22:21.340+0300] {processor.py:157} INFO - Started process (PID=265768) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:22:21.360+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:22:21.363+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:21.361+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:22:21.469+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:22:21.722+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:21.722+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:22:21.871+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:21.870+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:22:21.988+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.663 seconds
+[2023-08-15T22:22:52.158+0300] {processor.py:157} INFO - Started process (PID=266152) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:22:52.161+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:22:52.164+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:52.163+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:22:52.447+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:22:52.911+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:52.910+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:22:53.039+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:22:53.038+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:22:53.136+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 1.011 seconds
+[2023-08-15T22:23:23.743+0300] {processor.py:157} INFO - Started process (PID=266568) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:23:23.753+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:23:23.756+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:23.755+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:23:23.868+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:23:24.100+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:24.099+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:23:24.196+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:24.195+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:23:24.277+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.558 seconds
+[2023-08-15T22:23:54.458+0300] {processor.py:157} INFO - Started process (PID=266963) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:23:54.461+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:23:54.464+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:54.462+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:23:54.564+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:23:54.716+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:54.715+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:23:54.778+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:23:54.778+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:23:54.840+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.396 seconds
+[2023-08-15T22:24:24.981+0300] {processor.py:157} INFO - Started process (PID=267623) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:24:24.983+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:24:24.985+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:24.984+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:24:25.039+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:24:25.179+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:25.179+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:24:25.228+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:25.227+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:24:25.549+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.580 seconds
+[2023-08-15T22:24:55.813+0300] {processor.py:157} INFO - Started process (PID=268139) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:24:55.850+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:24:55.852+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:55.851+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:24:55.916+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:24:56.067+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:56.066+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:24:56.142+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:24:56.142+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:24:56.200+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.395 seconds
+[2023-08-15T22:25:26.313+0300] {processor.py:157} INFO - Started process (PID=268536) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:25:26.395+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:25:26.397+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:26.396+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:25:26.465+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:25:26.600+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:26.600+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:25:26.643+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:26.643+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:25:26.697+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.400 seconds
+[2023-08-15T22:25:56.815+0300] {processor.py:157} INFO - Started process (PID=268909) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:25:56.833+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:25:56.835+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:56.834+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:25:56.901+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:25:57.055+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:57.055+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:25:57.124+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:25:57.124+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:25:57.198+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.396 seconds
+[2023-08-15T22:26:27.941+0300] {processor.py:157} INFO - Started process (PID=269457) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:26:27.955+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:26:27.958+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:27.957+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:26:28.054+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:26:28.253+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:28.252+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:26:28.339+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:28.339+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:26:28.404+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.488 seconds
+[2023-08-15T22:26:58.922+0300] {processor.py:157} INFO - Started process (PID=270039) to work on /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:26:58.930+0300] {processor.py:826} INFO - Processing file /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-08-15T22:26:58.932+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:58.931+0300] {dagbag.py:541} INFO - Filling up the DagBag from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:26:59.041+0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-08-15T22:26:59.244+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:59.244+0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-08-15T22:26:59.329+0300] {logging_mixin.py:150} INFO - [2023-08-15T22:26:59.328+0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-08-15T22:26:59.421+0300] {processor.py:179} INFO - Processing /mnt/kali/DataHunt/venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.515 seconds
