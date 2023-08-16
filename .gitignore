@@ -4,3 +4,5 @@ airflow.cfg
 airflow-webserver.pid
 .idea/
 standalone_admin_password.txt
+.env
+aws_config.json
